@@ -28,37 +28,41 @@
    </teiHeader>
    
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="C_Abreu_1905_s1">
          <figure>
-            <label>Post-It Front</label>
+            <label>Front side of Conrrada Abreu postcard, 1905</label>
             <figDesc>
-               A photograph of the front of a post-it with a simple example phrase.
+               A picture of a woman in formal dress; sepia and glitter; typewritten text.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="C_Abreu_1905_s1_full" url="assets/img/documents/....png"/>
+            <graphic xml:id="C_Abreu_1905_s1_thumb" url="assets/img/documents/....png"/>
          </figure>
       </surface>
-      <surface xml:id="postit02">
+      <surface xml:id="C_Abreu_1905_s2">
          <figure>
-            <label>Post-It Back</label>
+            <label>Back side of Conrrada Abreu postcard, 1905</label>
             <figDesc>
-               A photograph of the back a post-it with a simple example phrase.
+               Typewritten text: recipient and address.
             </figDesc>
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            <graphic xml:id="C_Abreu_1905_s2_full" url="assets/img/documents/postit02.png"/>
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
-         <div type="page" facs="#postit01">
-            <head>
-               <hi rend="u">DCHM Template</hi>
-            </head>
+         <div type="postcard" facs="#C_Abreu_1905_s1">
+            <salute><persName>Conrrada</persName></salute>
             <p>
-               A <del>silly</del> <add>small</add> example
-               <lb/>text.
+               <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
+               <lb break="no"/>de y mi <choice><sic>deceo</sic><corr>deseo</corr></choice> mas ardiente son
+               <lb/>que el año que hoy empieza sea
+               <lb/>el precursor de tu <choice><sic>mas</sic><corr>más</corr></choice> comple
+               <lb break="no"/>ta felicidad y gratas <choice><sic>satifa
+               <lb break="no"/>ciones</sic><corr>satisfac<lb break="no"/>ciones.</corr></choice>            
             </p>
+            <closer>               
+               <dateline><placeName>Montevideo</placeName> <date>Enero 1 de 1905</date></dateline>
+               <lb/><signed>Ricardo A Abreu</signed></closer>
          </div>
          <div type="page" facs="#postit02">
             <p>
