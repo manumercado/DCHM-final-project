@@ -50,7 +50,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="postcard" facs="#C_Abreu_1905_s1">
+         <div type="page" facs="#C_Abreu_1905_s1">
             <salute><persName>Conrrada</persName></salute>
             <p>
                <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
@@ -66,9 +66,9 @@
          </div>
          <div type="page" facs="#postit02">
             <p>
-               The back
-               <lb/>of my
-               <lb/>Post-it
+               Señorita
+               <lb/><persName>Conrrada E Abreu</persName>
+               <lb/>Piedad 8 Ciudad
             </p>
          </div>
       </body>
