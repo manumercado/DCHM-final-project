@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- New postcard -->
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,15 +34,15 @@
          <figure>
             <label></label> <!-- XX - Front -->
             <figDesc></figDesc>
-            <graphic></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
-            <graphic></graphic> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
+            <graphic></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+            <graphic></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
          </figure>
       </surface>
       <surface> <!-- side 1 image; need xml:id="name_postcard_s2" -->
          <figure>
             <label></label> <!-- XX - back -->
             <figDesc></figDesc>
-            <graphic></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
+            <graphic></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
          </figure>
       </surface>
    </facsimile>
