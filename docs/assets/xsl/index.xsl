@@ -3,15 +3,18 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-    
+
     <xsl:template match="tei:TEI">
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    <xsl:apply-templates
+                        select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                    />
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -25,20 +28,21 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates
+                            select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                        />
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="postcards.html">Postcard Collection</a> |
-                </nav>
+                    <a href="index.html">Home</a> | <a href="postcards.html">Postcard Collection</a>
+                    | </nav>
                 <article id="collection">
-                    <xsl:apply-templates select="//tei:surface[1]" />
+                    <xsl:apply-templates select="//tei:surface[1]"/>
                 </article>
             </body>
         </html>
     </xsl:template>
-    
+
     <xsl:template match="tei:teiHeader"/>
     <xsl:template match="//tei:surface[1]">
         <img class="full-image">
@@ -51,6 +55,6 @@
             <xsl:attribute name="alt">
                 <xsl:value-of select="tei:figure/tei:figDesc"/>
             </xsl:attribute>
-        </img>  
+        </img>
     </xsl:template>
 </xsl:stylesheet>

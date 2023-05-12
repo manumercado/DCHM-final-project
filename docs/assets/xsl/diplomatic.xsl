@@ -53,28 +53,40 @@
                                             </xsl:attribute>
                                         </img>  
                                     </article>
-                                    <article id="img_postcard_s2">
+                                    </div>
+                                <div class="col-sm">
+                                    <article class="s1_transcription">
+                                        
+                                        <xsl:apply-templates select="tei:text/tei:body/tei:div[1]"/>
+                                            
+                                    </article>
+                                </div>
+                                </div>
+                           <div class="row">
+                               <div class="col-sm">
+                                   <article id="img_postcard_s2">
                                         <img class="full-image">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:label"/>
+                                                <xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:label"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"/>
+                                                <xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>  
                                     </article>
-                                </div>
-                                <div class="col-sm">
-                                    <article id="transcription">
-                                        <p><xsl:value-of select=""/></p>
-
-                                        
-                                    </article>
-                                </div>
-                            </div>
+                               </div>
+                               <div class="col-sm">
+                                   <article class="s2_transcription">
+                                      
+                                           <xsl:value-of select="tei:text/tei:body/tei:div[2]"/>
+                                       
+                                   </article>
+                               </div>
+                           </div>
+                            
                         </xsl:for-each>
                     </div>
                 </main>
@@ -84,5 +96,22 @@
     
     <xsl:template match="tei:teiHeader"/>
     
+    <!-- transform tei paragraphs into html paragraphs -->
+    <xsl:template match="tei:p">
+        <p>
+            <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:corr">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
 </xsl:stylesheet>
