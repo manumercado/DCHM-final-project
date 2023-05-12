@@ -28,11 +28,16 @@
                         <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
+                <nav id="sitenav">
+                    <a href="index.html">Home</a> |
+                    <a href="postcards.html">Postcard Collection</a> |
+                </nav>
                 <main id="postcards">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <xsl:for-each select="//tei:TEI">
+                            <xsl:variable name="postcardurl" select="@xml:id"/>
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
@@ -55,6 +60,7 @@
                                     <p>Description: <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></p>
                                     <p>Date: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/></p>
                                     <p>Location: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/></p>
+                                    <a href="{$postcardurl}.html">See postcard</a>
 
                                 </article>
                             </div>

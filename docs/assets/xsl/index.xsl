@@ -28,6 +28,10 @@
                         <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
+                <nav id="sitenav">
+                    <a href="index.html">Home</a> |
+                    <a href="postcards.html">Postcard Collection</a> |
+                </nav>
                 <article id="collection">
                     <xsl:apply-templates select="//tei:surface[1]" />
                 </article>

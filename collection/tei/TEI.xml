@@ -16,7 +16,7 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <TEI> <!-- postcard n1 -->
+   <TEI xml:id="C_Abreu_1905"> <!-- postcard n1 -->
       <teiHeader>
          <!-- header for first postcard -->
          <fileDesc>
@@ -89,7 +89,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n2 -->
+   <TEI xml:id="C_Ghione_1905"> <!-- postcard n2 -->
       <teiHeader> <!-- header for postcard -->
          <fileDesc>
             <titleStmt>
