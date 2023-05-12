@@ -4,7 +4,7 @@
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
     
-    <xsl:template match="tei:TEI">
+    <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -19,7 +19,7 @@
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
-                <link rel="stylesheet" href="Assets/css/main.css"/>
+                <link rel="stylesheet" href="assets/css/main.css"/>
                 <!-- <link rel="stylesheet" href="assets/css/desktop.css"/> -->
             </head>
             <body>

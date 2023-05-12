@@ -45,26 +45,26 @@
          </profileDesc>
       </teiHeader>
       <facsimile> <!-- images of postcard, both sides plus the thumbnail for s1 -->
-         <surface xml:id="TestC_Abreu_1905_s1"> <!-- side 1 image -->
+         <surface xml:id="C_Abreu_1905_s1"> <!-- side 1 image -->
             <figure>
                <label>Postcard to Conrrada E. Abreu - Front</label>
                <figDesc>An image of a woman posing and typewritten message.</figDesc>
-               <graphic xml:id="TestC_Abreu_1905_s1_full" url="Assets/img/TestC_Abreu_1905_s1_full.Jpeg"></graphic> <!-- image displayed side by side with stranscription -->
-               <graphic xml:id="TestC_Abreu_1905_s1_thumb" url="Assets/img/TestC_Abreu_1905_s1_thumb.Jpeg"></graphic> <!-- image used for general overview -->
+               <graphic xml:id="C_Abreu_1905_s1_full" url="assets/img/postcards/C_Abreu_1905_s1.jpeg"/> <!-- image displayed side by side with stranscription -->
+               <graphic xml:id="TestC_Abreu_1905_s1_thumb" url="assets/img/postcards/C_Abreu_1905_s1_thumb.jpeg"/> <!-- image used for general overview -->
             </figure>
          </surface>
-         <surface xml:id="TestC_Abreu_1905_s2">
+         <surface xml:id="C_Abreu_1905_s2">
             <figure>
-               <label>Postcard to Conrrada E. Abreu- Back</label>
+               <label>Postcard to Conrrada E. Abreu - Back</label>
                <figDesc>The back of a postcard with the recipient's information</figDesc>
-               <graphic xml:id="TestC_Abreu_1905_s2_full" url="Assets/img/TestC_Abreu_1905_s2_full.Jpeg"></graphic> <!-- image displayed side by side with stranscription -->
+               <graphic xml:id="C_Abreu_1905_s2_full" url="assets/img/postcards/C_Abreu_1905_s2.jpeg"/> <!-- image displayed side by side with stranscription -->
             </figure>
          </surface>
       </facsimile>
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#TestC_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#C_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <salute><persName>Conrrada</persName></salute>
                <p>
                   <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
@@ -78,7 +78,7 @@
                   <dateline><placeName>Montevideo</placeName> <date when="1905-01-01">Enero 1 de 1905</date></dateline>
                   <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
             </div> 
-            <div type="page" facs="#TestC_Abreu_1905_s2"> <!-- Transcribed text - side 2 -->
+            <div type="page" facs="#C_Abreu_1905_s2"> <!-- Transcribed text - side 2 -->
                <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
                   <address>
                      <addrLine>Señorita</addrLine>
@@ -121,15 +121,15 @@
             <figure>
                <label>Postcard to Clementina Ghione - Front</label> <!-- XX - Front -->
                <figDesc>An image of an old rural cottage in a golden frame; color and relief; handwritten text. </figDesc>
-               <graphic xml:id="C_Ghione_1905_s1_full" url="" ></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="C_Ghione_1905_s1_thumb" url=""></graphic> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
+               <graphic xml:id="C_Ghione_1905_s1_full" url="assets/img/postcards/C_Ghione_1905_s1.jpeg"/> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="C_Ghione_1905_s1_thumb" url="assets/img/postcards/C_Ghione_1905_s1_thumb.jpeg"/> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="C_Ghione_1905_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Clementina Ghione - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address; a stamp fragment.</figDesc>
-               <graphic xml:id="C_Ghione_1905_s2_full" url=""></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="C_Ghione_1905_s2_full" url="assets/img/postcards/C_Ghione_1905_s2.jpeg"/> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -186,15 +186,15 @@
             <figure>
                <label>Postcard to <foreign xml:lang="es" >Distinguido corresponsal (1) - Front</foreign></label> <!-- XX - Front -->
                <figDesc>An image of a plant; color and relief; handrwitten text; one stamp.</figDesc>
-               <graphic xml:id="D_Corresponsal_1_1906_s1_full" url=""></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="D_Corresponsal_1_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
+               <graphic xml:id="D_Corresponsal_1_1906_s1_full" url="assets/img/postcards/D_Corresponsal_1_1906_s1.jpeg"/> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_1_1906_s1_thumb" url="assets/img/postcards/D_Corresponsal_1_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="D_Corresponsal_1_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to <foreign xml:lang="es" >Distinguido corresponsal (1) - Back</foreign></label> <!-- XX - back -->
                <figDesc>Handwritten text and sender's signature.</figDesc>
-               <graphic xml:id="D_Corresponsal_1_1906_s2_full" url=""></graphic> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_1_1906_s2_full" url="assets/img/postcards/D_Corresponsal_1_1906_s2.jpeg"/> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -266,15 +266,15 @@
             <figure>
                <label>Postcard to <foreign xml:lang="es">Distinguido corresponsal</foreign> - Front</label> <!-- XX - Front -->
                <figDesc>A red 1906 seal and a rosehip branches against a golden background; (metallic) color and relief; handwritten text; one stamp. </figDesc>
-               <graphic xml:id="D_Corresponsal_2_1906_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="D_Corresponsal_2_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="D_Corresponsal_2_1906_s1_full" url="assets/img/postcards/D_Corresponsal_2_1906_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_2_1906_s1_thumb" url="assets/img/postcards/D_Corresponsal_2_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="D_Corresponsal_2_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to <foreign xml:lang="es">Distinguido corresponsal</foreign> - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text and sender's signature.</figDesc>
-               <graphic xml:id="D_Corresponsal_2_1906_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_2_1906_s2_full" url="assets/img/postcards/D_Corresponsal_2_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -344,15 +344,15 @@
             <figure>
                <label>Postcard to <foreign xml:lang="es">Distinguido corresponsal (3) - Front</foreign></label> <!-- XX - Front -->
                <figDesc>An image of a flower basket; color; handwritten text; one stamp.</figDesc>
-               <graphic xml:id="D_Corresponsal_3_1906_s1" url=""></graphic> <!-- needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="D_Corresponsal_3_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="D_Corresponsal_3_1906_s1_full" url="assets/img/postcards/D_Corresponsal_3_1906_s1.jpeg"/> <!-- needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_3_1906_s1_thumb" url="assets/img/postcards/D_Corresponsal_3_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="D_Corresponsal_3_1906_s2" > <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to <foreign xml:lang="es">Distinguido corresponsal</foreign> (3) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text.</figDesc>
-               <graphic xml:id="D_Corresponsal_3_1906_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="D_Corresponsal_3_1906_s2_full" url="assets/img/postcards/D_Corresponsal_3_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -432,15 +432,15 @@
             <figure>
                <label>Postcard to Ernesto Musetti (1) - Front</label> <!-- XX - Front -->
                <figDesc>A rural landscape, including two horses and a farmer; color; handwritten text; two stamps.</figDesc>
-               <graphic xml:id="E_Musetti_1_1905_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="E_Musetti_1_1905_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="E_Musetti_1_1905_s1_full" url="assets/img/postcards/E_Musetti_1_1905_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_1_1905_s1_thumb" url="assets/img/postcards/E_Musetti_1_1905_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="E_Musetti_1_1905_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Ernesto Musetti (1) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="E_Musetti_1_1905_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_1_1905_s2_full" url="assets/img/postcards/E_Musetti_1_1905_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -497,15 +497,15 @@
             <figure>
                <label>Postcard to Ernesto Musetti (2) - Front</label> <!-- XX - Front -->
                <figDesc>Maritime motif, sailboats in the horizon; (metallic) colors and relief; handwritten text; one stamp. </figDesc>
-               <graphic xml:id="E_Musetti_2_1906_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="E_Musetti_2_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="E_Musetti_2_1906_s1_full" url="assets/img/postcards/E_Musetti_2_1906_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_2_1906_s1_thumb" url="assets/img/postcards/E_Musetti_2_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="E_Musetti_2_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Ernesto Musetti (2) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="Ernesto_Musetti_2_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="Ernesto_Musetti_2_s2_full" url="assets/img/postcards/E_Musetti_2_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -562,15 +562,15 @@
             <figure>
                <label>Postcard to Ernesto Musetti (3) - Front</label> <!-- XX - Front -->
                <figDesc>Coastal landscape: Torquay Natural Arch; color; handwritten text; one stamp.</figDesc>
-               <graphic xml:id="E_Musetti_3_1906_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="E_Musetti_3_1906_s1_thumb"></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="E_Musetti_3_1906_s1_full" url="assets/img/postcards/E_Musetti_3_1906_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_3_1906_s1_thumb" url="assets/img/postcards/E_Musetti_3_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="E_Musetti_3_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Ernesto Musetti (3) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="E_Musetti_3_1906_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_3_1906_s2_full" url="assets/img/postcards/E_Musetti_3_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -630,15 +630,15 @@
             <figure>
                <label>Postcard to Ernesto Musetti (4) - Front</label> <!-- XX - Front -->
                <figDesc>Maritime motif, ships in the ocean; color; handwritten text; one stamp.</figDesc>
-               <graphic xml:id="E_Musetti_4_1904_s1_full"></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="E_Musetti_4_1904_s1_thumb"></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="E_Musetti_4_1904_s1_full" url="assets/img/postcards/E_Musetti_4_1904_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_4_1904_s1_thumb" url="assets/img/postcards/E_Musetti_4_1904_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="E_Musetti_4_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcarrd to Ernesto Musetti (4)</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="E_Musetti_4_1904_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="E_Musetti_4_1904_s2_full" url="assets/img/postcards/E_Musetti_4_1904_s2.jpeg"></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -698,15 +698,15 @@
             <figure>
                <label>Postcard to María Quintela (1) - Front</label> <!-- XX - Front -->
                <figDesc>Two flowers, one with the face of a child (pasted); color (hand-coloring) and relief; handwritten text.</figDesc>
-               <graphic xml:id="M_Quintela_1_1906_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_Quintela_1_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_Quintela_1_1906_s1_full" url="assets/img/postcards/M_Quintela_1_1906_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_1_1906_s1_thumb" url="assets/img/postcards/M_Quintela_1_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_Quintela_1_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to María Quintela (1) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="M_Quintela_1_1906_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_1_1906_s2_full" url="assets/img/postcards/M_Quintela_1_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -767,15 +767,15 @@
             <figure>
                <label>Postcard to María Quintela (2) - Front</label> <!-- XX - Front -->
                <figDesc>A girl hugging a cat; color (hand-coloring); handwritten text.</figDesc>
-               <graphic xml:id="M_Quintela_2_1907_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_Quintela_2_1907_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_Quintela_2_1907_s1_full" url="assets/img/postcards/M_Quintela_2_1907_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_2_1907_s1_thumb" url="assets/img/postcards/M_Quintela_2_1907_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_Quintela_2_1907_s2"> <!-- side 2 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to María Quintela (2) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient.</figDesc>
-               <graphic xml:id="M_Quintela_2_1907_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_2_1907_s2_full" url="assets/img/postcards/M_Quintela_2_1907_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -837,15 +837,15 @@
             <figure>
                <label>Postcard to María Quintela (3) - Front</label> <!-- XX - Front -->
                <figDesc>A bride and a groom looking at each other; sepia; handwritten and printed text. </figDesc>
-               <graphic xml:id="M_Quintela_3_1907_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_Quintela_3_1907_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_Quintela_3_1907_s1_full" url="assets/img/postcards/M_Quintela_3_1907_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_3_1907_s1_thumb" url="assets/img/postcards/M_Quintela_3_1907_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_Quintela_3_1907_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to María Quintela (3) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="M_Quintela_3_1907_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_3_1907_s2_full" url="assets/img/postcards/M_Quintela_3_1907_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -905,15 +905,15 @@
             <figure>
                <label>Postcard to María Quintela (4) - Front</label> <!-- XX - Front -->
                <figDesc>A couple leaning on a fence; color (hand-coloring); handwritten text.</figDesc>
-               <graphic xml:id="M_Quintela_4_1909_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_Quintela_4_1909_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_Quintela_4_1909_s1_full" url="assets/img/postcards/M_Quintela_4_1909_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_4_1909_s1_thumb" url="assets/img/postcards/M_Quintela_4_1909_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_Quintela_4_1909_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to María Quintela (4) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: message, recipient and address.</figDesc>
-               <graphic xml:id="M_Quintela_4_1909_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Quintela_4_1909_s2_full" url="assets/img/postcards/M_Quintela_4_1909_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -975,15 +975,15 @@
             <figure>
                <label>Postcard to María Saint Hilaire - Front</label> <!-- XX - Front -->
                <figDesc>A man offering flowers to a woman; color (hand-coloring); handwritten text; part of a stamp.</figDesc>
-               <graphic xml:id="M_SaintHilaire_1904_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_SaintHilaire_1904_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_SaintHilaire_1904_s1_full" url="assets/img/postcards/M_SaintHilaire_1904_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_SaintHilaire_1904_s1_thumb" url="assets/img/postcards/M_SaintHilaire_1904_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_SaintHilaire_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to MAría Saint Hilaire - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address; part of a stamp.</figDesc>
-               <graphic xml:id="M_SaintHilaire_1904_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_SaintHilaire_1904_s2_full" url="assets/img/postcards/M_SaintHilaire_1904_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -1042,15 +1042,15 @@
             <figure>
                <label>Postcard to Manuela J. Vinent - Front</label> <!-- XX - Front -->
                <figDesc>A picture of two children holding a flower basket; color (hand-coloring); handwritten and printed text.</figDesc>
-               <graphic xml:id="M_Vinent_1906_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="M_Vinent_1906_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="M_Vinent_1906_s1_full" url="assets/img/postcards/M_Vinent_1906_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Vinent_1906_s1_thumb" url="assets/img/postcards/M_Vinent_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="M_vinent_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Manuela Vinent - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: message, recipient and address.</figDesc>
-               <graphic xml:id="M_Vinent_1906_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="M_Vinent_1906_s2_full" url="assets/img/postcards/M_Vinent_1906_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -1111,26 +1111,26 @@
          </profileDesc>
       </teiHeader>
       <facsimile> <!-- images of postcard, both sides plus the thumbnail for s1 -->
-         <surface xml:id="P_de_Quincoces_1_1904_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
+         <surface xml:id="P_deQuincoces_1_1904_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
             <figure>
                <label>Postcard to Petrona C. de Quincoces (1) - Front</label> <!-- XX - Front -->
                <figDesc>A woman with flowers in her hair and a bowl of fruit; sepia and colored glitter; handwritten text; one stamp.</figDesc>
-               <graphic xml:id="P_de_Quincoces_1_1904_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="P_Quincoces_1_1904_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="P_deQuincoces_1_1904_s1_full" url="assets/img/postcards/P_deQuincoces_1_1904_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincoces_1_1904_s1_thumb" url="assets/img/postcards/P_deQuincoces_1_1904_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
-         <surface xml:id="P_de_Quincoces_1_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
+         <surface xml:id="P_deQuincoces_1_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Petrona C. de Quincoces (1) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address.</figDesc>
-               <graphic xml:id="P_de_Quincoces_1_1904_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincoces_1_1904_s2_full" url="assets/img/postcards/P_deQuincoces_1_1904_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_de_Quincoces_1_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_deQuincoces_1_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <p>Queridisima 
                   hija
                   Hoy en tu dia
@@ -1146,7 +1146,7 @@
                   5 de 1094
                </p>
             </div> 
-            <div type="page" facs="#P_de_Quincoces_1_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
+            <div type="page" facs="#P_deQuincoces_1_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <p>Señora
                   Petrona C de Quincoces
                   Rivera 50
@@ -1184,33 +1184,33 @@
          </profileDesc>
       </teiHeader>
       <facsimile> <!-- images of postcard, both sides plus the thumbnail for s1 -->
-         <surface xml:id="P_de_Quincoces_2_1904_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
+         <surface xml:id="P_deQuincoces_2_1904_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
             <figure>
                <label>Postcard to Petrona P. de Quincoces (2) - Front</label> <!-- XX - Front -->
                <figDesc>Flowers; color; handwritten text.</figDesc>
-               <graphic xml:id="P_de_Quincoces_2_1904_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="P_de_Quincocers_2_1904_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="P_deQuincoces_2_1904_s1_full" url="assets/img/postcards/P_deQuincoces_2_1904_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincocers_2_1904_s1_thumb" url="assets/img/postcards/P_deQuincoces_2_1904_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
-         <surface xml:id="P_de_Quincoces_2_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
+         <surface xml:id="P_deQuincoces_2_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Petrona C. de Quincoces (2) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address; two stamps.</figDesc>
-               <graphic xml:id="P_de_Quincoces_2_1904_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincoces_2_1904_s2_full" url="assets/img/postcards/P_deQuincoces_2_1904_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_de_Quincoces_2_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_deQuincoces_2_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <p>La virtud y la modestia realza la belleza de la
                   mujer.
                   Tu ahijada Carolina
                   Montevideo 10 – 6/904
                </p>
             </div> 
-            <div type="page" facs="#P_de_Quincoces_2_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
+            <div type="page" facs="#P_deQuincoces_2_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <p>Sra Petrona C. de Quincoces
                   Calle Rivera N°50
                   Ciudad
@@ -1247,32 +1247,32 @@
          </profileDesc>
       </teiHeader>
       <facsimile> <!-- images of postcard, both sides plus the thumbnail for s1 -->
-         <surface xml:id="P_de_Quincoces_3_1908_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
+         <surface xml:id="P_deQuincoces_3_1908_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
             <figure>
                <label>Postcard to Petrona C. de Quincoces (3) - Front</label> <!-- XX - Front -->
                <figDesc>Flowers in the foreground and sailboats in the sea in the background; color (hand-coloring) and relief; handwritten text. </figDesc>
-               <graphic xml:id="P_de_Quincoces_3_1908_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="P_de_Quincoces_3_1908_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="P_deQuincoces_3_1908_s1_full" url="assets/img/postcards/P_deQuincoces_3_1908_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincoces_3_1908_s1_thumb" url="assets/img/postcards/P_deQuincoces_3_1908_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
-         <surface xml:id="P_de_Quincoces_3_1908_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
+         <surface xml:id="P_deQuincoces_3_1908_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Petrona C. de Quincoces (3) - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: message, recipient and address; two stamps. </figDesc>
-               <graphic xml:id="P_de_Quincoces_3_1908_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_deQuincoces_3_1908_s2_full" url="assets/img/postcards/P_deQuincoces_3_1908_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_de_Quincoces_3_1908_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_deQuincoces_3_1908_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <p>1 – 1 – 1.908 
                   
                   Crescencia Tassano
                </p>
             </div> 
-            <div type="page" facs="#P_de_Quincoces_3_1908_s2"> <!-- type and facs / Transcribed text - side 2 -->
+            <div type="page" facs="#P_deQuincoces_3_1908_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <p>Que Dios envie á la
                   tierra un sinnumeros de
                   felicidades para su muy
@@ -1324,15 +1324,15 @@
             <figure>
                <label>Postcard to Paula Grand - Front</label> <!-- XX - Front -->
                <figDesc>A dove carrying a letter (pasted) and blue flowers; color and relief; handwritten and printed text.</figDesc>
-               <graphic xml:id="P_Grand_1907_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="P_Grand_1907_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="P_Grand_1907_s1_full" url="assets/img/postcards/P_Grand_1907_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_Grand_1907_s1_thumb" url="assets/img/postcards/P_Grand_1907_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="P_Grand_1907_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Paula Grand - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address; one stamp.</figDesc>
-               <graphic xml:id="P_Grand_1907_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="P_Grand_1907_s2_full" url="assets/img/postcards/P_Grand_1907_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -1392,15 +1392,15 @@
             <figure>
                <label>Postcard to Vicente Magallanes - Front</label> <!-- XX - Front -->
                <figDesc>Victor Hugo themed postcard: his portrait and house; color; handwritten text; part of a stamp.</figDesc>
-               <graphic xml:id="V_Magallanes_1904_s1_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
-               <graphic xml:id="V_Magallanes_1904_s1_thumb" url=""></graphic> <!-- _thumb/ needs xml:id and url / image used for general overview -->
+               <graphic xml:id="V_Magallanes_1904_s1_full" url="assets/img/postcards/V_Magallanes_1904_s1.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="V_Magallanes_1904_s1_thumb" url="assets/img/postcards/V_Magallanes_1904_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
          <surface xml:id="V_Magallanes_1904_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Vicente Magallanes - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: recipient and address; one stamp and part of another stamp. </figDesc>
-               <graphic xml:id="V_Magallanes_1904_s2_full" url=""></graphic> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
+               <graphic xml:id="V_Magallanes_1904_s2_full" url="assets/img/postcards/V_Magallanes_1904_s2.jpeg"/> <!-- _full / needs xml:id and url / image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
@@ -1422,7 +1422,7 @@
                   José Salgado 
                </p>
             </div> 
-            <div type="page" facs="#V_Magallanes_1904_s2> <!-- type and facs / Transcribed text - side 2 -->
+            <div type="page" facs="#V_Magallanes_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <p>Sr *M*ayor Vicente Magallanes
                   Avenida de la Paz entre
                   Río Negro y O. del Plata (B. 13 de G. Nacionales)
