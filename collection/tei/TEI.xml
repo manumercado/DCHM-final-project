@@ -154,7 +154,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n3-->
+   <TEI xml:id="D_Corresponsal_1_1906"> <!-- postcard n3-->
       <teiHeader> <!-- Header for postcard -->
          <fileDesc>
             <titleStmt>
@@ -234,7 +234,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n4-->
+   <TEI xml:id="D_Corresponsal_2_1906"> <!-- postcard n4-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -312,7 +312,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n5-->
+   <TEI xml:id="D_Corresponsal_3_1906"> <!-- postcard n5-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -400,7 +400,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n6-->
+   <TEI xml:id="E_Musetti_1_1905"> <!-- postcard n6-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -465,7 +465,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n7-->
+   <TEI xml:id="E_Musetti_2_1906"> <!-- postcard n7-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -530,7 +530,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n8 -->
+   <TEI xml:id="E_Musetti_3_1906"> <!-- postcard n8 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -598,7 +598,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n9 -->
+   <TEI xml:id="E_Musetti_4_1904"> <!-- postcard n9 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -666,7 +666,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n10-->
+   <TEI xml:id="M_Quintela_1_1906"> <!-- postcard n10-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -735,7 +735,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n11-->
+   <TEI xml:id="M_Quintela_2_1907"> <!-- postcard n11-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -805,7 +805,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n12 -->
+   <TEI xml:id="M_Quintela_3_1907"> <!-- postcard n12 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -873,7 +873,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n13-->
+   <TEI xml:id="M_Quintela_4_1909"> <!-- postcard n13-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -943,7 +943,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n14-->
+   <TEI xml:id="M_SaintHilaire_1904"> <!-- postcard n14-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1010,7 +1010,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n15-->
+   <TEI xml:id="M_Vinent_1906"> <!-- postcard n15-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1046,7 +1046,7 @@
                <graphic xml:id="M_Vinent_1906_s1_thumb" url="assets/img/postcards/M_Vinent_1906_s1_thumb.jpeg"/> <!-- _thumb/ needs xml:id and url / image used for general overview -->
             </figure>
          </surface>
-         <surface xml:id="M_vinent_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
+         <surface xml:id="M_Vinent_1906_s2"> <!-- side 1 image; need xml:id="name_postcard_s2" -->
             <figure>
                <label>Postcard to Manuela Vinent - Back</label> <!-- XX - back -->
                <figDesc>Handwritten text: message, recipient and address.</figDesc>
@@ -1083,7 +1083,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n16 -->
+   <TEI xml:id="P_deQuincoces_1_1904"> <!-- postcard n16 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1156,7 +1156,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n17-->
+   <TEI xml:id="P_deQuincoces_2_1904"> <!-- postcard n17-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1219,7 +1219,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n18 -->
+   <TEI xml:id="P_deQuincoces_3_1908"> <!-- postcard n18 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1292,7 +1292,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n19-->
+   <TEI xml:id="P_Grand_1907"> <!-- postcard n19-->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -1360,7 +1360,7 @@
          </body>
       </text>
    </TEI>
-   <TEI> <!-- postcard n20 -->
+   <TEI xml:id="V_Magallanes_1904"> <!-- postcard n20 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
