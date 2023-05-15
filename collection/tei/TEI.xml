@@ -15,6 +15,11 @@
             <bibl>A collection of twenty postcards from Argentina and Uruguay, between 1900 and 1910.</bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Here we can write a project descrition that will go in the home page?</p>
+         </projectDesc>
+      </encodingDesc>
    </teiHeader>
    <TEI xml:id="C_Abreu_1905"> <!-- postcard n1 -->
       <teiHeader>
@@ -65,19 +70,20 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#C_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <salute><persName>Conrrada</persName></salute>
-               <p>
-                  <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
+               <div xml:lang="es">
+                  <salute><persName>Conrrada</persName></salute>
+                  <p>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
                   <lb break="no"/>de y mi <choice><sic>deceo</sic><corr>deseo</corr></choice> mas ardiente son
                   <lb/>que el año que hoy empieza sea
                   <lb/>el precursor de tu <choice><sic>mas</sic><corr>más</corr></choice> comple
                   <lb break="no"/>ta felicidad y gratas <choice><sic>satifa
-                     <lb break="no"/>ciones</sic><corr>satisfac<lb break="no"/>ciones.</corr></choice>            
-               </p>
-               <closer>               
+                  <lb break="no"/>ciones</sic><corr>satisfac<lb break="no"/>ciones.</corr></choice></p>
+                  <closer>               
                   <dateline><placeName>Montevideo</placeName> <date when="1905-01-01">Enero 1 de 1905</date></dateline>
                   <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
+               </div>
             </div> 
+            
             <div type="page" facs="#C_Abreu_1905_s2"> <!-- Transcribed text - side 2 -->
                <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
                   <address>

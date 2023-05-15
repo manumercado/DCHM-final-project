@@ -4,7 +4,7 @@
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
 
-    <xsl:template match="tei:TEI">
+    <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
@@ -34,27 +34,29 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> | <a href="postcards.html">Postcard Collection</a>
-                    | </nav>
-                <article id="collection">
-                    <xsl:apply-templates select="//tei:surface[1]"/>
-                </article>
+                    <a href="index.html">Home</a> | 
+                    <a href="postcards.html">Postcard Collection</a> | 
+                </nav>
+                <main>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="full-image" src="assets/img/testimage.jpeg" alt="a dog"></img>
+                        </div>
+                        
+                        <div class="col-sm">
+                            <article>
+                                <h2>Introduction</h2>
+                                <p>
+                                    <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </main>
             </body>
         </html>
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="//tei:surface[1]">
-        <img class="full-image">
-            <xsl:attribute name="src">
-                <xsl:value-of select="tei:figure/tei:graphic[1]/@url"/>
-            </xsl:attribute>
-            <xsl:attribute name="title">
-                <xsl:value-of select="tei:figure/tei:label"/>
-            </xsl:attribute>
-            <xsl:attribute name="alt">
-                <xsl:value-of select="tei:figure/tei:figDesc"/>
-            </xsl:attribute>
-        </img>
-    </xsl:template>
+
 </xsl:stylesheet>

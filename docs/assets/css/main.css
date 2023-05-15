@@ -70,3 +70,11 @@ footer {
     border: 1px solid black;
     width: 500px;
 }
+
+#s1-edited .sic {
+    display: none;
+}
+
+#s1-original .corr {
+    display: none;
+}
