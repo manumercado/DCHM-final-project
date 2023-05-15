@@ -15,35 +15,28 @@
          </nav>
       <main>
          <div class="container">
-            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script></script></div>
+            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script>
+                                        function original() {
+                                        document.getElementById("s1-original").style.display = "block"
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function edited() {
+                                        document.getElementById("s1-edited").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function english() {
+                                        document.getElementById("s1-english").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-edited").style.display = "none"}
+                                    </script></div>
             <div class="row">
                <div class="col-sm">
                   <article id="img-postcard-s1"><img class="full-image" src="assets/img/postcards/M_Vinent_1906_s1.jpeg" title="Postcard to Manuela J. Vinent - Front" alt="A picture of two children holding a flower basket; color (hand-coloring); handwritten and printed text."></article>
                </div>
-               <div class="col-sm">
-                  <article id="s1-original"> 
-                     2-16-1906
-                     
-                     En lo más re-
-                     cóndito de mi
-                     corazon guar-
-                     do su grata
-                     amistad.
-                     Diamante
-                     
-                     </article>
-                  <article id="s1-edited"> 
-                     2-16-1906
-                     
-                     En lo más re-
-                     cóndito de mi
-                     corazon guar-
-                     do su grata
-                     amistad.
-                     Diamante
-                     
-                     </article>
-                  <article id="s1-english"></article>
+               <div class="col-sm" id="col-s1">
+                  <article id="s1-original"></article>
+                  <article id="s1-edited" style="display:none"></article>
+                  <article id="s1-english" style="display:none"></article>
                </div>
             </div>
             <div class="row">

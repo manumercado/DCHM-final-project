@@ -15,35 +15,28 @@
          </nav>
       <main>
          <div class="container">
-            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script></script></div>
+            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script>
+                                        function original() {
+                                        document.getElementById("s1-original").style.display = "block"
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function edited() {
+                                        document.getElementById("s1-edited").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function english() {
+                                        document.getElementById("s1-english").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-edited").style.display = "none"}
+                                    </script></div>
             <div class="row">
                <div class="col-sm">
                   <article id="img-postcard-s1"><img class="full-image" src="assets/img/postcards/D_Corresponsal_1_1906_s1.jpeg" title="Postcard to Distinguido corresponsal (1) - Front" alt="An image of a plant; color and relief; handrwitten text; one stamp."></article>
                </div>
-               <div class="col-sm">
-                  <article id="s1-original"> 
-                     
-                     
-                     Lo más delicioso en una flor
-                     es su perfume y en una mujer
-                     la dulsura de su carácter
-                     
-                     Micaela Leoner Sierra
-                     Enero 1906
-                     
-                     </article>
-                  <article id="s1-edited"> 
-                     
-                     
-                     Lo más delicioso en una flor
-                     es su perfume y en una mujer
-                     la dulsura de su carácter
-                     
-                     Micaela Leoner Sierra
-                     Enero 1906
-                     
-                     </article>
-                  <article id="s1-english"></article>
+               <div class="col-sm" id="col-s1">
+                  <article id="s1-original"></article>
+                  <article id="s1-edited" style="display:none"></article>
+                  <article id="s1-english" style="display:none"></article>
                </div>
             </div>
             <div class="row">

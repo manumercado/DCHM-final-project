@@ -15,31 +15,40 @@
          </nav>
       <main>
          <div class="container">
-            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script></script></div>
+            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script>
+                                        function original() {
+                                        document.getElementById("s1-original").style.display = "block"
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function edited() {
+                                        document.getElementById("s1-edited").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function english() {
+                                        document.getElementById("s1-english").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-edited").style.display = "none"}
+                                    </script></div>
             <div class="row">
                <div class="col-sm">
                   <article id="img-postcard-s1"><img class="full-image" src="assets/img/postcards/C_Ghione_1905_s1.jpeg" title="Postcard to Clementina Ghione - Front" alt="An image of an old rural cottage in a golden frame; color and relief; handwritten text. "></article>
                </div>
-               <div class="col-sm">
-                  <article id="s1-original"> 
-                     XI-XXIII-1905
+               <div class="col-sm" id="col-s1">
+                  <article id="s1-original">XI-XXIII-1905
                      Clara
                      
                      ¿Clementina que podria yo desearte en
                      Este dia? Pue lo unico es un millon
                      De felicidades para tu porvenir.
-                     
                      </article>
-                  <article id="s1-edited"> 
-                     XI-XXIII-1905
+                  <article id="s1-edited" style="display:none">XI-XXIII-1905
                      Clara
                      
                      ¿Clementina que podria yo desearte en
                      Este dia? Pue lo unico es un millon
                      De felicidades para tu porvenir.
-                     
                      </article>
-                  <article id="s1-english"></article>
+                  <article id="s1-english" style="display:none">Ingles</article>
                </div>
             </div>
             <div class="row">

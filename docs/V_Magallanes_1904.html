@@ -15,43 +15,28 @@
          </nav>
       <main>
          <div class="container">
-            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script></script></div>
+            <div id="buttons"><button class="btn btn-light" onclick="original()">Original text</button><button class="btn btn-light" onclick="edited()">Edited text</button><button class="btn btn-light" onclick="english()">English</button><script>
+                                        function original() {
+                                        document.getElementById("s1-original").style.display = "block"
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function edited() {
+                                        document.getElementById("s1-edited").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function english() {
+                                        document.getElementById("s1-english").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-edited").style.display = "none"}
+                                    </script></div>
             <div class="row">
                <div class="col-sm">
                   <article id="img-postcard-s1"><img class="full-image" src="assets/img/postcards/V_Magallanes_1904_s1.jpeg" title="Postcard to Vicente Magallanes - Front" alt="Victor Hugo themed postcard: his portrait and house; color; handwritten text; part of a stamp."></article>
                </div>
-               <div class="col-sm">
-                  <article id="s1-original"> 
-                     Victor Hugo fué un gigante de
-                     aquellos que él mismo clasifi
-                     có de hombres océanos. después
-                     de haberlo contemplado todo
-                     hombre tiene que confesar
-                     que no hay tempestades
-                     mas grandiosas que
-                     las que agitan sus
-                     ondas ni tintas mas dulces que las
-                     que ostenta su superficie en las horas fugaces
-                     de la calma.
-                     José Salgado 
-                     
-                     </article>
-                  <article id="s1-edited"> 
-                     Victor Hugo fué un gigante de
-                     aquellos que él mismo clasifi
-                     có de hombres océanos. después
-                     de haberlo contemplado todo
-                     hombre tiene que confesar
-                     que no hay tempestades
-                     mas grandiosas que
-                     las que agitan sus
-                     ondas ni tintas mas dulces que las
-                     que ostenta su superficie en las horas fugaces
-                     de la calma.
-                     José Salgado 
-                     
-                     </article>
-                  <article id="s1-english"></article>
+               <div class="col-sm" id="col-s1">
+                  <article id="s1-original"></article>
+                  <article id="s1-edited" style="display:none"></article>
+                  <article id="s1-english" style="display:none"></article>
                </div>
             </div>
             <div class="row">

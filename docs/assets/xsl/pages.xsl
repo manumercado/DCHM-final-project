@@ -41,7 +41,18 @@
                                     <button class="btn btn-light" onclick="edited()">Edited text</button>
                                     <button class="btn btn-light" onclick="english()">English</button>
                                     <script>
-                                        
+                                        function original() {
+                                        document.getElementById("s1-original").style.display = "block"
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function edited() {
+                                        document.getElementById("s1-edited").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-english").style.display = "none"}
+                                        function english() {
+                                        document.getElementById("s1-english").style.display = "block"
+                                        document.getElementById("s1-original").style.display = "none"
+                                        document.getElementById("s1-edited").style.display = "none"}
                                     </script>
                                 </div>
                                 
@@ -63,17 +74,16 @@
                                             </img>  
                                         </article>
                                     </div>
-                                    <div class="col-sm"> <!-- trans1 -->
+                                    <div class="col-sm" id="col-s1"> <!-- trans1 -->
                                         <article id="s1-original">
-                                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]"/>                                           
+                                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:div[1]"/>                                           
                                         </article>
-                                        <article id="s1-edited">
-                                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]"/>
+                                        <article id="s1-edited" style="display:none">
+                                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:div[1]"/>
                                         </article>
-                                        <article id="s1-english">
-                                            
+                                        <article id="s1-english" style="display:none">
+                                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:div[2]"/>
                                         </article>
-                                        
                                     </div>
                                     
                                 </div>
