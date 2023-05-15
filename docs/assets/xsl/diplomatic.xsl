@@ -86,7 +86,6 @@
                                    </article>
                                </div>
                            </div>
-                            
                         </xsl:for-each>
                     </div>
                 </main>
