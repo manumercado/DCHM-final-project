@@ -19,15 +19,24 @@
                                         function original() {
                                         document.getElementById("s1-original").style.display = "block"
                                         document.getElementById("s1-edited").style.display = "none"
-                                        document.getElementById("s1-english").style.display = "none"}
+                                        document.getElementById("s1-english").style.display = "none"
+                                        document.getElementById("s2-original").style.display = "block"
+                                        document.getElementById("s2-edited").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "none"}
                                         function edited() {
                                         document.getElementById("s1-edited").style.display = "block"
                                         document.getElementById("s1-original").style.display = "none"
-                                        document.getElementById("s1-english").style.display = "none"}
+                                        document.getElementById("s1-english").style.display = "none"
+                                        document.getElementById("s2-edited").style.display = "block"
+                                        document.getElementById("s2-original").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "none"}
                                         function english() {
                                         document.getElementById("s1-english").style.display = "block"
                                         document.getElementById("s1-original").style.display = "none"
-                                        document.getElementById("s1-edited").style.display = "none"}
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "block"
+                                        document.getElementById("s2-original").style.display = "none"
+                                        document.getElementById("s2-edited").style.display = "none"}
                                     </script></div>
             <div class="row">
                <div class="col-sm">
@@ -43,26 +52,10 @@
                <div class="col-sm">
                   <article id="img-postcard-s2"><img class="full-image" src="assets/img/postcards/D_Corresponsal_1_1906_s2.jpeg" title="Postcard to Distinguido corresponsal (1) - Back" alt="Handwritten text and sender's signature."></article>
                </div>
-               <div class="col-sm">
-                  <article class="s2-transcription"> 
-                     Acabo de recibir su linda postal lo que la
-                     contesto inmediatamente – contestaré á 
-                     su pregunta – si he recibido la
-                     última postal de la colección – lo
-                     que creo haberle dado las gracias
-                     en mis anteriores – de Buenos Aires me
-                     la remitieron enseguida á esta 
-                     Le pido me disculpe por que no
-                     le mando belleza – pues no he
-                     podido encontrar en ninguna parte
-                     pero he mandado á pedir á la 
-                     ciudad y en cuando venga le
-                     mandaré – Sin más los saluda
-                     afectuosamente su corresponsal
-                     
-                     Micaela Leoner Sierra
-                     
-                     </article>
+               <div class="col-sm" id="col-s2">
+                  <article id="s2-original"></article>
+                  <article id="s2-edited" style="display:none"></article>
+                  <article id="s2-english" style="display:none"></article>
                </div>
             </div>
          </div>

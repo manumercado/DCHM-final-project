@@ -19,15 +19,24 @@
                                         function original() {
                                         document.getElementById("s1-original").style.display = "block"
                                         document.getElementById("s1-edited").style.display = "none"
-                                        document.getElementById("s1-english").style.display = "none"}
+                                        document.getElementById("s1-english").style.display = "none"
+                                        document.getElementById("s2-original").style.display = "block"
+                                        document.getElementById("s2-edited").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "none"}
                                         function edited() {
                                         document.getElementById("s1-edited").style.display = "block"
                                         document.getElementById("s1-original").style.display = "none"
-                                        document.getElementById("s1-english").style.display = "none"}
+                                        document.getElementById("s1-english").style.display = "none"
+                                        document.getElementById("s2-edited").style.display = "block"
+                                        document.getElementById("s2-original").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "none"}
                                         function english() {
                                         document.getElementById("s1-english").style.display = "block"
                                         document.getElementById("s1-original").style.display = "none"
-                                        document.getElementById("s1-edited").style.display = "none"}
+                                        document.getElementById("s1-edited").style.display = "none"
+                                        document.getElementById("s2-english").style.display = "block"
+                                        document.getElementById("s2-original").style.display = "none"
+                                        document.getElementById("s2-edited").style.display = "none"}
                                     </script></div>
             <div class="row">
                <div class="col-sm">
@@ -43,12 +52,10 @@
                <div class="col-sm">
                   <article id="img-postcard-s2"><img class="full-image" src="assets/img/postcards/E_Musetti_4_1904_s2.jpeg" title="Postcarrd to Ernesto Musetti (4)" alt="Handwritten text: recipient and address."></article>
                </div>
-               <div class="col-sm">
-                  <article class="s2-transcription"> 
-                     Señor Ernesto Musetti
-                     Buenos. Aires 
-                     
-                     </article>
+               <div class="col-sm" id="col-s2">
+                  <article id="s2-original"></article>
+                  <article id="s2-edited" style="display:none"></article>
+                  <article id="s2-english" style="display:none"></article>
                </div>
             </div>
          </div>
