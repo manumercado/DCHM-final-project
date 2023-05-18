@@ -78,3 +78,11 @@ footer {
 #s1-original .corr {
     display: none;
 }
+
+#s2-edited .sic {
+    display: none;
+}
+
+#s2-original .corr {
+    display: none;
+}

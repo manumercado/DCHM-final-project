@@ -71,29 +71,48 @@
          <body>
             <div type="page" facs="#C_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <salute><persName>Conrrada</persName></salute>
-                  <p>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> gran
+                  <salute><persName><choice><sic>Conrrada</sic><corr>Conrada:</corr></choice></persName></salute>
+                  <p>
+                  <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>gran</sic><corr>gran-</corr></choice>
                   <lb break="no"/>de y mi <choice><sic>deceo</sic><corr>deseo</corr></choice> mas ardiente son
                   <lb/>que el año que hoy empieza sea
-                  <lb/>el precursor de tu <choice><sic>mas</sic><corr>más</corr></choice> comple
+                  <lb/>el precursor de tu <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>comple</sic><corr>comple-</corr></choice>
                   <lb break="no"/>ta felicidad y gratas <choice><sic>satifa
-                  <lb break="no"/>ciones</sic><corr>satisfac<lb break="no"/>ciones.</corr></choice></p>
-                  <closer>               
-                  <dateline><placeName>Montevideo</placeName> <date when="1905-01-01">Enero 1 de 1905</date></dateline>
+                  <lb break="no"/>ciones</sic><corr>satisfac-
+                  <lb break="no"/>ciones.</corr></choice>
+                  </p>
+                  <lb/><closer><dateline><placeName>Montevideo</placeName> <date when="1905-01-01">Enero 1 de 1905</date></dateline>
                   <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
                </div>
                <div>
-                  <p>English translation</p>
+                  <salute>Conrrada,</salute>
+                  <p>
+                  <lb/>My biggest aspiration 
+                  <lb/>and my most fervent wish are
+                  <lb/>that the year that today begins 
+                  <lb/>brings you the utmost happiness 
+                  <lb/>and great satisfaction.
+                  </p>
+                  <lb/><closer><dateline><placeName>Montevideo</placeName> <date when="1905-01">January 1905</date></dateline>
+                  <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
                </div>
             </div> 
             
             <div type="page" facs="#C_Abreu_1905_s2"> <!-- Transcribed text - side 2 -->
-               <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
-                  <address>
-                     <addrLine>Señorita</addrLine>
-                     <addrLine><name><persName>Conrrada E</persName> <surname>Abreu</surname></name></addrLine>
-                     <addrLine>Piedad 8 Ciudad</addrLine></address>
-               </ab>
+               <div xml:lang="es" >
+                  <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
+                     <lb/>Señorita
+                     <lb/><persName><choice><sic>Conrrada<corr>Conrada</corr></sic></choice> E Abreu</persName>
+                     <lb/><placeName>Piedad 8 Ciudad</placeName>
+                  </ab>
+               </div>
+               <div xml:lang="en">
+                  <p> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
+                     <lb/>Miss
+                     <lb/><persName>Conrada E Abreu</persName>
+                     <lb/><placeName>Piedad 8 Ciudad</placeName>
+                  </p>
+               </div>
             </div> 
          </body>
       </text>
@@ -146,20 +165,23 @@
          <!-- content of postcard -->
          <body>
             <div type="page" facs="#C_Ghione_1905_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div><p>XI-XXIII-1905
-                  Clara
+               <div xml:lang="es">
+                  <opener><dateline><date when="1905-11-23">XI-XXIII-1905</date></dateline>
+                  <lb/><signed><persName>Clara</persName></signed></opener>
                   
-                  ¿Clementina que podria yo desearte en
-                  Este dia? Pue lo unico es un millon
-                  De felicidades para tu porvenir.
-               </p></div>
-               <div><p>Ingles</p></div>
+                  <lb/><salute><choice><sic>¿Clementina</sic><corr>Clementina:</corr></choice></salute> <p><choice><sic>que podria</sic><corr>¿qué podría</corr></choice> yo desearte en
+                  <lb/>Este dia? Pue lo unico es un millon
+                  <lb/>De felicidades para tu porvenir.</p>
+               </div>
+               <div xml:lang="en"><p>Ingles</p></div>
             </div> 
             <div type="page" facs="#C_Ghione_1905_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <p>Sta Clementina Ghione
+               <div xml:lang="es">
+                  <p>Sta Clementina Ghione
                   Juán M Blanes N° 37
-                  Ciudad
-               </p>
+                  Ciudad</p>
+               </div>
+               <div xml:lang="en"></div>
             </div> 
          </body>
       </text>
