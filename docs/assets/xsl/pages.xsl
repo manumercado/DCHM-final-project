@@ -26,8 +26,11 @@
                     <body>
                         <header>
                             <h1>
-                                Description: <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                                <xsl:value-of select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                             </h1>
+                            <h2>
+                                Description: <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                            </h2>
                         </header>
                         <nav id="sitenav">
                             <a href="index.html">Home</a> |
@@ -132,6 +135,12 @@
     
     <xsl:template match="tei:lb">
         <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg">
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:ab">
