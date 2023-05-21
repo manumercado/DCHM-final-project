@@ -71,47 +71,42 @@
          <body>
             <div type="page" facs="#C_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <salute><persName><choice><sic>Conrrada</sic><corr>Conrada:</corr></choice></persName></salute>
-                  <p>
-                  <lb/>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>gran</sic><corr>gran-</corr></choice>
+                  <salute><persName>Conrrada</persName></salute>
+                  <lb/><p>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>gran</sic><corr>gran-</corr></choice>
                   <lb break="no"/>de y mi <choice><sic>deceo</sic><corr>deseo</corr></choice> mas ardiente son
                   <lb/>que el año que hoy empieza sea
                   <lb/>el precursor de tu <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>comple</sic><corr>comple-</corr></choice>
                   <lb break="no"/>ta felicidad y gratas <choice><sic>satifa
                   <lb break="no"/>ciones</sic><corr>satisfac-
-                  <lb break="no"/>ciones.</corr></choice>
-                  </p>
+                  <lb break="no"/>ciones.</corr></choice></p>
                   <lb/><closer><dateline><placeName>Montevideo</placeName> <date when="1905-01-01">Enero 1 de 1905</date></dateline>
                   <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
                </div>
                <div>
                   <salute>Conrrada,</salute>
-                  <p>
-                  <lb/>My biggest aspiration 
+                  <lb/><p>My biggest aspiration 
                   <lb/>and my most fervent wish are
                   <lb/>that the year that today begins 
                   <lb/>brings you the utmost happiness 
-                  <lb/>and great satisfaction.
-                  </p>
+                  <lb/>and great satisfaction.</p>
                   <lb/><closer><dateline><placeName>Montevideo</placeName> <date when="1905-01">January 1905</date></dateline>
                   <lb/><signed><persName>Ricardo A Abreu</persName></signed></closer>
                </div>
-            </div> 
-            
+            </div>
             <div type="page" facs="#C_Abreu_1905_s2"> <!-- Transcribed text - side 2 -->
                <div xml:lang="es" >
                   <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
-                     <lb/>Señorita
-                     <lb/><persName><choice><sic>Conrrada<corr>Conrada</corr></sic></choice> E Abreu</persName>
+                     Señorita
+                     <lb/><persName>Conrrada E Abreu</persName>
                      <lb/><placeName>Piedad 8 Ciudad</placeName>
                   </ab>
                </div>
                <div xml:lang="en">
-                  <p> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
+                  <ab> <!-- Took inspiration from https://encoding-correspondence.bbaw.de/v1/addresses.html -->
                      <lb/>Miss
-                     <lb/><persName>Conrada E Abreu</persName>
+                     <lb/><persName>Conrrada E Abreu</persName>
                      <lb/><placeName>Piedad 8 Ciudad</placeName>
-                  </p>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -135,7 +130,7 @@
                <correspAction type="sent">
                   <persName>Clara</persName>
                   <placeName>Uruguay</placeName>
-                  <date when="1905-11-23">23 November 1905 </date>
+                  <date when="1905-11-23">23 November 1905</date>
                </correspAction>
                <correspAction type="received">
                   <persName>Clementina Ghione</persName>
@@ -148,7 +143,7 @@
          <surface xml:id="C_Ghione_1905_s1"> <!-- side 1 image; need xml:id="name_postcard_s1" -->
             <figure>
                <label>Postcard to Clementina Ghione - Front</label> <!-- XX - Front -->
-               <figDesc>An image of an old rural cottage in a golden frame; color and relief; handwritten text. </figDesc>
+               <figDesc>An image of an old rural cottage in a golden frame; color and relief; handwritten text.</figDesc>
                <graphic xml:id="C_Ghione_1905_s1_full" url="assets/img/postcards/C_Ghione_1905_s1.jpeg"/> <!-- _full / needs xsl:id and url / image displayed side by side with transcription -->
                <graphic xml:id="C_Ghione_1905_s1_thumb" url="assets/img/postcards/C_Ghione_1905_s1_thumb.jpeg"/> <!-- _thumb/ needs xsl:id and url / image used for general overview -->
             </figure>
@@ -167,32 +162,31 @@
             <div type="page" facs="#C_Ghione_1905_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><dateline><date when="1905-11-23">XI-XXIII-1905</date></dateline>
-                  <lb/><signed><persName>Clara</persName></signed></opener>
-                  
-                  <lb/><salute><choice><sic>¿Clementina</sic><corr>Clementina:</corr></choice></salute> <p><choice><sic>que podria</sic><corr>¿qué podría</corr></choice> yo desearte en
-                  <lb/>Este dia? Pue lo unico es un millon
-                  <lb/>De felicidades para tu porvenir.</p>
+                  <lb/><signed><persName>Clara</persName></signed>
+                  <lb/><salute><choice><sic>¿Clementina</sic><corr>Clementina:</corr></choice></salute></opener>
+                  <p><choice><sic>que podria</sic><corr>¿qué podría</corr></choice> yo desearte en
+                  <lb/><choice><sic>Este dia</sic><corr>este día</corr></choice>? <choice><sic>Pue</sic><corr>Pues</corr></choice> lo <choice><sic>unico</sic><corr>único</corr></choice> es un <choice><sic>millon</sic><corr>millón</corr></choice>
+                  <lb/><choice><sic>De</sic><corr>de</corr></choice> felicidades para tu porvenir.</p>
                </div>
                <div xml:lang="en">
-                  <p>XI-XXIII-1905
-                  Clara
-                  
-                  Clementina, what could I wish
-                  for you on this day? Only a million
-                  blessings for your future.
-                  </p>
+                  <opener><dateline><date when="1905-11-23">XI-XXIII-1905</date></dateline>
+                  <lb/><signed><persName>Clara</persName></signed>
+                  <lb/><salute>Clementina,</salute></opener>
+                  <p>what could I wish
+                  <lb/>for you on this day? Only a million
+                  <lb/>blessings for your future.</p>   
                </div>
             </div> 
             <div type="page" facs="#C_Ghione_1905_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Sta Clementina Ghione
-                  Juán M Blanes N° 37
-                  Ciudad</p>
+                  <ab>Sta <persName>Clementina Ghione</persName>
+                  <lb/><placeName><choice><sic>Juán</sic><corr>Juan</corr></choice> M Blanes N° 37
+                  <lb/>Ciudad</placeName></ab>
                </div>
                <div xml:lang="en">
-                  <p>Miss Clementina Ghione
-                  Juan M Blanes N°37
-                  Ciudad</p>
+                  <ab>Miss <persName>Clementina Ghione</persName>
+                  <lb/><placeName>Juan M Blanes N°37
+                  <lb/>Ciudad</placeName></ab>
                </div>
             </div> 
          </body>
@@ -253,8 +247,8 @@
                      <l>la dulsura de su carácter</l>
                   </lg>
                   <closer>
-                     <lb/><signed>Micaela Leoner Sierra</signed>
-                     <lb/><dateline>Enero 1906
+                     <signed>Micaela Leoner Sierra</signed>
+                     <lb/><dateline><date when="1906-01">Enero 1906</date>
                      <lb/><placeName>P. Pérez</placeName></dateline>
                   </closer>
                </div>
@@ -263,10 +257,10 @@
                      <l>What is most delicious in a flower</l>
                      <l>is its perfume and in a woman</l>
                      <l>the sweetness of her character</l>
-                     </lg>
+                  </lg>
                   <closer>
                      <lb/><signed>Micaela Leoner Sierra</signed>
-                     <lb/><dateline>January 1906
+                     <lb/><dateline><date when="1906-01">January 1906</date>
                      <lb/><placeName>P. Pérez</placeName></dateline>
                   </closer>
                </div>
@@ -274,39 +268,38 @@
             <div type="page" facs="#D_Corresponsal_1_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
                   <p>Acabo de recibir su linda postal lo que la
-                  contesto inmediatamente – contestaré á 
-                  su pregunta – si he recibido la
-                  última postal de la colección – lo
-                  que creo haberle dado las gracias
-                  en mis anteriores – de Buenos Aires me
-                  la remitieron enseguida á esta 
-                  Le pido me disculpe por que no
-                  le mando belleza – pues no he
-                  podido encontrar en ninguna parte
-                  pero he mandado á pedir á la 
-                  ciudad y en cuando venga le
-                  mandaré – Sin más los saluda
-                  afectuosamente su corresponsal
-                  
-                  Micaela Leoner Sierra
-               </p></div>
-            
+                  <lb/>contesto inmediatamente – contestaré á 
+                  <lb/>su pregunta – si he recibido la
+                  <lb/>última postal de la colección – lo
+                  <lb/>que creo haberle dado las gracias
+                  <lb/>en mis anteriores – de Buenos Aires me
+                  <lb/>la remitieron enseguida á esta 
+                  <lb/>Le pido me disculpe por que no
+                  <lb/>le mando belleza – pues no he
+                  <lb/>podido encontrar en ninguna parte
+                  <lb/>pero he mandado á pedir á la 
+                  <lb/>ciudad y en cuando venga le
+                  <lb/>mandaré –</p> <closer><salute>Sin más los saluda
+                  <lb/>afectuosamente su corresponsal</salute>
+                  <lb/><persName>Micaela Leoner Sierra</persName></closer>
+               </div>
             <div xml:lang="en">
-               <p>I just received your pleasant postcard to which
-                  I’ll reply immediately. I’ll answer your question:
-                  yes, I received the last postcard of the collection, 
-                  and I think I thanked you for that in my previous postcard. 
-                  It was forwarded right away from Buenos Aires to this [address].
-                  
-                  I beg you’ll excuse me for not sending you beauty, 
-                  but I couldn’t find one anywhere. However, 
-                  I ordered one from the city and when it arrives, 
-                  I’ll send it to you.  
-                  
-                  Without further ado, most affectionately,
-                  Your correspondent,
-                  Micaela Leoner Sierra
-               </p>
+               <p>I just received your pleasant postcard 
+                  <lb/>to which I’ll reply immediately.
+                  <lb/>I’ll answer your question:
+                  <lb/>yes, I received the last postcard 
+                  <lb/>of the collection, and I think 
+                  <lb/>I thanked you for that in my previous 
+                  <lb/>postcard. It was forwarded right away 
+                  <lb/>from Buenos Aires to this address.
+                  <lb/> I beg you’ll excuse me for not sending 
+                  <lb/>you beauty, but I couldn’t find 
+                  <lb/>one anywhere. However, I ordered 
+                  <lb/>one from the city and when it 
+                  <lb/>arrives, I’ll send it to you.</p>  
+                  <lb/> <closer><salute>Without further ado, most affectionately,
+                  <lb/>Your correspondent,</salute>
+                  <lb/><signed><persName>Micaela Leoner Sierra</persName></signed></closer>
             </div>
             </div>
          </body>

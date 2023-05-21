@@ -143,8 +143,15 @@
         </p>
     </xsl:template>
     
+    <xsl:template match="tei:l">
+            <xsl:apply-templates/>
+        <br/>
+    </xsl:template>
+    
     <xsl:template match="tei:ab">
-        <p><xsl:apply-templates/></p>
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:corr">
