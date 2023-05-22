@@ -166,4 +166,16 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="tei:del">
+        <del>
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
 </xsl:stylesheet>

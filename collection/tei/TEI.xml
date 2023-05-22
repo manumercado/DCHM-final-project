@@ -209,7 +209,7 @@
             <correspDesc> <!-- Record information about senders and recipients. Not always the same labels, as postcards differ. -->
                <correspAction type="sent">
                   <persName>Micaela Leoner Sierra</persName>
-                  <placeName>Parque Pérez, Argentina</placeName>
+                  <placeName>Roque Pérez, Argentina</placeName>
                   <date when="1906-01">Enero 1906</date>
                </correspAction>
                <correspAction type="received">
@@ -241,46 +241,46 @@
          <body>
             <div type="page" facs="#D_Corresponsal_1_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <lg type="stanza">
-                     <l>Lo más delicioso en una flor</l>
-                     <l>es su perfume y en una mujer</l>
-                     <l>la dulsura de su carácter</l>
-                  </lg>
+                  <p>
+                     <lb/>Lo más delicioso en una flor
+                     <lb/>es su <choice><sic>perfume Y</sic><corr>perfume. Y</corr></choice> en una mujer
+                     <lb/>la <choice><sic>dulsura</sic><corr>dulzura</corr></choice> de su <choice><sic>carácter</sic><corr>carácter.</corr></choice>
+                  </p>
                   <closer>
-                     <signed>Micaela Leoner Sierra</signed>
+                     <lb/><signed>Micaela Leoner Sierra</signed>
                      <lb/><dateline><date when="1906-01">Enero 1906</date>
-                     <lb/><placeName>P. Pérez</placeName></dateline>
+                     <lb/><placeName>R. Pérez</placeName></dateline>
                   </closer>
                </div>
                <div xml:lang="en">
-                  <lg type="stanza">
-                     <l>What is most delicious in a flower</l>
-                     <l>is its perfume and in a woman</l>
-                     <l>the sweetness of her character</l>
-                  </lg>
+                  <p>
+                     <lb/>What is most delicious in a flower
+                     <lb/>is its perfume and in a woman
+                     <lb/>the sweetness of her character.
+                  </p>
                   <closer>
                      <lb/><signed>Micaela Leoner Sierra</signed>
                      <lb/><dateline><date when="1906-01">January 1906</date>
-                     <lb/><placeName>P. Pérez</placeName></dateline>
+                     <lb/><placeName>R. Pérez</placeName></dateline>
                   </closer>
                </div>
             </div> 
             <div type="page" facs="#D_Corresponsal_1_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Acabo de recibir su linda postal lo que la
-                  <lb/>contesto inmediatamente – contestaré á 
-                  <lb/>su pregunta – si he recibido la
-                  <lb/>última postal de la colección – lo
+                  <p>Acabo de recibir su linda postal <choice><sic>lo que la</sic><corr>la que</corr></choice>
+                  <lb/>contesto inmediatament<choice><sic>e – c</sic><corr>e. C</corr></choice>ontestaré <choice><sic>á</sic><corr>a</corr></choice> 
+                  <lb/>su pregunta<choice><sic> – si</sic><corr>: sí, </corr></choice>he recibido la
+                  <lb/>última postal de la colección<choice><sic> – lo</sic><corr>, por la</corr></choice>
                   <lb/>que creo haberle dado las gracias
-                  <lb/>en mis anteriores – de Buenos Aires me
-                  <lb/>la remitieron enseguida á esta 
-                  <lb/>Le pido me disculpe por que no
-                  <lb/>le mando belleza – pues no he
+                  <lb/>en mis anteriore<choice><sic>s – d</sic><corr>s. D</corr></choice>e Buenos Aires me
+                  <lb/>la remitieron enseguida <choice><sic>á</sic><corr>a</corr></choice> <choice><sic>esta</sic><corr>esta.</corr></choice> 
+                  <lb/>Le pido me disculpe <choice><sic>por que</sic><corr>porque</corr></choice> no
+                  <lb/>le mando bellez<choice><sic>a – </sic><corr>a, </corr></choice>pues no he
                   <lb/>podido encontrar en ninguna parte
-                  <lb/>pero he mandado á pedir á la 
+                  <lb/>pero he mandado <choice><sic>á</sic><corr>a</corr></choice> pedir <choice><sic>á</sic><corr>a</corr></choice> la 
                   <lb/>ciudad y en cuando venga le
-                  <lb/>mandaré –</p> <closer><salute>Sin más los saluda
-                  <lb/>afectuosamente su corresponsal</salute>
+                  <lb/>mandar<choice><sic>é –</sic><corr>é.</corr></choice></p> <closer><salute>Sin más lo saluda
+                  <lb/>afectuosamente su corresponsa<choice><sic>l</sic><corr>l,</corr></choice></salute>
                   <lb/><persName>Micaela Leoner Sierra</persName></closer>
                </div>
             <div xml:lang="en">
@@ -292,7 +292,7 @@
                   <lb/>I thanked you for that in my previous 
                   <lb/>postcard. It was forwarded right away 
                   <lb/>from Buenos Aires to this address.
-                  <lb/> I beg you’ll excuse me for not sending 
+                  <lb/>I beg you’ll excuse me for not sending 
                   <lb/>you beauty, but I couldn’t find 
                   <lb/>one anywhere. However, I ordered 
                   <lb/>one from the city and when it 
@@ -322,7 +322,7 @@
             <correspDesc> <!-- Record information about senders and recipients. Not always the same labels, as postcards differ. -->
                <correspAction type="sent">
                   <persName>Micaela Leoner Sierra</persName>
-                  <placeName>Parque Pérez, Argentina</placeName>
+                  <placeName>Roque Pérez, Argentina</placeName>
                   <date when="1906-01">Enero 1906</date>
                </correspAction>
                <correspAction type="received">
@@ -353,42 +353,61 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#D_Corresponsal_2_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>Feliz año nuevo le desea su
-                  corresponsal y amiga
-                  Micaela Leoner Sierra
-                  Parque Pérez
-                  Enero 1906
-               </p></div>
-               <div xml:lang="en"><p>Happy New Year from your correspondent and friend.
-                  Micaela Leoner Sierra</p>
+               <div xml:lang="es">
+                  <p>Feliz año nuevo le desea su
+                  <lb/>corresponsal y amig<choice><sic>a</sic><corr>a.</corr></choice></p>
+                  <closer>
+                     <lb/><signed><persName>Micaela Leoner Sierra</persName></signed>
+                     <lb/><dateline><placeName>Roque Pérez</placeName>
+                     <lb/><date>Enero 1906</date></dateline></closer>
+               </div>
+               <div xml:lang="en">
+                  <p>Happy New Year from 
+                     <lb/>your correspondent and friend.</p>
+                  <closer>
+                     <lb/><signed><persName>Micaela Leoner Sierra</persName></signed>
+                     <lb/><dateline><placeName>Roque Pérez</placeName>
+                     <lb/><date>January 1906</date></dateline></closer>
                </div>
             </div> 
             <div type="page" facs="#D_Corresponsal_2_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">               
-                  <p>Distinguido Corresponsal: -he recibido
-                  su dos lindas postales la que le estoy
-                  muy agradecida, pues me agradan
-                  mucho las colecciones – Estoy otra
-                  vez en Parque Pérez – pues he tenido
-                  que venir antes de lo que pensaba
-                  por excusa de q’ mi hermanita
-                  se encontraba bastante grave – asi
-                  que me dirija otra vez acá la
-                  correspondencia
-                  ¿Quiere decirme que clase de tar-
-                  jetas prefiere? asi yo le puedo
-                  enviar eh? Quisiera que en este
-                  año que empezamos vea realizados
-                  todos sus deseos son los votos q’
-                  hace su corresponsal y amiga
-                  Micaela Leoner Sierra
-                  </p>
+                  <p>Distinguido Corresponsal: <choice><sic>-he</sic><corr>he</corr></choice> recibido
+                  <lb/>su dos lindas postales <choice><sic>la que le</sic><corr>por las que</corr></choice> estoy
+                  <lb/>muy agradecida, pues me agradan
+                  <lb/>mucho las coleccione<choice><sic>s –</sic><corr>s.</corr></choice> Estoy otra
+                  <lb/>vez en Roque Pére<choice><sic>z –</sic><corr>z</corr></choice> pues he tenido
+                  <lb/>que venir antes de lo que pensaba
+                  <lb/>por excusa de <choice><sic>q’</sic><corr>que</corr></choice> mi hermanita
+                  <lb/>se encontraba bastante grav<choice><sic>e – asi</sic><corr>e. Así</corr></choice>
+                  <lb/>que <choice><sic>me dirija</sic><corr>diríjame</corr></choice> otra vez acá la
+                  <lb/>correspondenci<choice><sic>a</sic><corr>a.</corr></choice></p>
+                  <lb/><p>¿Quiere decirme <choice><sic>que</sic><corr>qué</corr></choice> clase de tar-
+                  <lb break="no"/>jetas prefiere? <choice><sic>asi</sic><corr>Así</corr></choice> yo le puedo
+                  <lb/>enviar eh? Quisiera que en este
+                  <lb/>año que empezamos vea realizados
+                  <lb/>todos sus deseo<choice><sic>s son</sic><corr>s. Son</corr></choice> los votos <choice><sic>q’</sic><corr>que</corr></choice>
+                  <lb/>hace su corresponsal y amiga</p>
+                  <lb/><closer><signed><persName>Micaela Leoner Sierra</persName></signed></closer>
                </div>
                <div xml:lang="en">
-                  <p>Dear Correspondent: I’ve received your two beautiful postcards, which I’m thankful for as I really like the collections. I’m once again in Parque Pérez. I had to come earlier than I expected because my little sister was in quite a serious condition. So send the correspondence here again.
-                     Would you like to tell me what kind of cards you prefer? So I can send you one, huh? I hope that in the year that now begins you will see all your wishes come true. These are the prayers said by your correspondent and friend.
-                     Micaela [Leoner] Sierra
-                  </p>
+                  <p>Dear Correspondent, I’ve received 
+                     <lb/>your two beautiful postcards, which 
+                     <lb/>I’m thankful for as I really like 
+                     <lb/>the collections. I’m once again in 
+                     <lb/>Roque Pérez. I had to come earlier 
+                     <lb/>than I expected because my little 
+                     <lb/>sister was in quite a serious 
+                     <lb/>condition. So send the correspondence 
+                     <lb/>here again.</p>
+                     <lb/><p>Would you like to tell me what 
+                     <lb/>kind of cards you prefer? So I can 
+                     <lb/>send you one, huh? I hope that in 
+                     <lb/>the year that now begins you will see 
+                     <lb/>all your wishes come true. These 
+                     <lb/>are the prayers said by your 
+                     <lb/>correspondent and friend.</p>
+                     <lb/><closer><signed><persName>Micaela Leoner Sierra</persName></signed></closer>
                </div>
             </div> 
          </body>
@@ -411,7 +430,7 @@
             <correspDesc> <!-- Record information about senders and recipients. Not always the same labels, as postcards differ. -->
                <correspAction type="sent">
                   <persName>Micaela Leoner Sierra</persName>
-                  <placeName>Parque Pérez, Argentina</placeName>
+                  <placeName>Roque Pérez, Argentina</placeName>
                   <date when="1906">1906</date>
                </correspAction>
                <correspAction type="received">
@@ -442,75 +461,75 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#D_Corresponsal_3_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es" >
-                  <p>yo le dire que en esa fotografia no estoy nada
-                  bien – soy mucho mejor – muchas gracias por
-                  su amabilidad – no creia que Ud. seria 
-                  tan amable con un niña - ¿No piensa man-
-                  darme el suyo? Sin embargo me lo prome-
-                  tio – y lo ”prometido es deuda”, no es
-                  asi? 
-                  Esperando su próxima lo saluda
-                  su corresponsal
-                  Micaela [Leoner] Sierra
-                  Parque Pérez
-                  </p>
+               <div xml:lang="es">
+                  <p>yo le <choice><sic>dire</sic><corr>diré</corr></choice> que en esa <choice><sic>fotografia</sic><corr>fotografía</corr></choice> no estoy nada
+                  <lb/>bien – soy mucho mejo<choice><sic>r – m</sic><corr>r. M</corr></choice>uchas gracias por
+                  <lb/>su amabilida<choice><sic>d – </sic><corr>d, </corr></choice>no <choice><sic>creia</sic><corr>creía</corr></choice> que Ud. <choice><sic>seria</sic><corr>sería</corr></choice> 
+                  <lb/>tan amable con un niñ<choice><sic>a -</sic><corr>a.</corr></choice> ¿No piensa man-
+                  <lb break="no"/>darme el suyo? Sin embargo me lo prome-
+                  <lb break="no"/>ti<choice><sic>o –</sic><corr>ó</corr></choice> y lo ”prometido es deuda”, <choice><sic>no</sic><corr>¿no</corr></choice> es
+                  <lb/><choice><sic>asi</sic><corr>así</corr></choice>?</p>
+                  <lb/><closer>Esperando su próxima lo saluda
+                  <lb/>su corresponsa<choice><sic>l</sic><corr>l,</corr></choice>
+                  <lb/><signed><persName>Micaela Leoner Sierra</persName></signed>
+                  <lb/><placeName>Roque Pérez</placeName></closer>
                </div>
                <div xml:lang="en">
-                  <p>
-                     but I’ll tell you that in that picture I don’t look great, I’m much better. Thank you for your kindness. I never thought you’d be so nice to a girl. Aren’t you going to send me yours [portrait]? You promised this, and “a promise is a promise”, isn’t it?
-                     Looking forward to hearing from you.
-                     Your correspondent,
-                     Micaela [Leonor] Sierra
-                     Parque Pérez
-                     
-                  </p>
+                  <p> I’ll tell you that in that picture 
+                  <lb/>I don’t look great, I’m much better. 
+                  <lb/>Thank you for your kindness. I 
+                  <lb/>never thought you’d be so nice to 
+                  <lb/>a girl. Aren’t you going to send me 
+                  <lb/>your portrait? You promised this, 
+                  <lb/>and “a promise is a promise”, isn’t it?</p>
+                  <lb/><closer> Looking forward to hearing from you.
+                  <lb/>Your correspondent,
+                  <lb/><signed><persName>Micaela Leoner Sierra</persName></signed>
+                  <lb/><placeName>Roque Pérez</placeName></closer>
                </div>
             </div> 
             <div type="page" facs="#D_Corresponsal_3_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Distinguido corresponsal: He recibido
-                  cuatro postales de la colección que
-                  me está mandando – es muy boni-
-                  ta – gracias – le diré que no pude
-                  contestar á su lindas postales
-                  por que me encontraba lejos
-                  de este pueblo – en una Estancia
-                  de una amiguita – y como no pude
-                  venir á esta – ¿no sabía que Ud
-                  me había mandando – por que me las
-                  manda á [?]? no sabe que estoy
-                  otra vez en P. Perez? Sin embargo le
-                  mandé ha decir – así que le pido
-                  me disculpe no haya contestado a sus
-                  tarjetas – Una amiguita mia le ha
-                  gustado mucho sus por caligrafia
-                  y me ha pedido que le haga firmar
-                  esa postal que le adjunto - ¿quiere
-                  hacerme ese favor? Se los agradeceria –
-                  Me dice Ud. en una postal que no
-                  creia que yo era tan linda – [?]
-                  </p>
+                  <salute>Distinguido corresponsal:</salute> <p>He recibido
+                  <lb/>cuatro postales de la colección que
+                  <lb/>me está mandando – es muy boni-
+                  <lb break="no"/>ta – gracia<choice><sic>s – l</sic><corr>s. L</corr></choice>e diré que no pude
+                  <lb/>contestar <choice><sic>á</sic><corr>a</corr></choice> su lindas postales
+                  <lb/>por que me encontraba lejos
+                  <lb/>de este puebl<choice><sic>o –</sic><corr>o,</corr></choice> en una Estancia
+                  <lb/>de una amiguit<choice><sic>a – y</sic><corr>a. Y</corr></choice> como no pude
+                  <lb/>venir <choice><sic>á</sic><corr>a</corr></choice> est<choice><sic>a –</sic><corr>a,</corr></choice> ¿no sabía que Ud
+                  <lb/>me había mandando – por <choice><sic>que</sic><corr>qué</corr></choice> me las
+                  <lb/>manda <choice><sic>á</sic><corr>a</corr></choice> <unclear reason="illegible">[lugar]</unclear>? <choice><sic>no</sic><corr>¿No</corr></choice> sabe que estoy
+                  <lb/>otra vez en R. Perez? Sin embargo le
+                  <lb/>mandé ha deci<choice><sic>r –</sic><corr>r,</corr></choice> así que le pido
+                  <lb/>me disculpe no haya contestado a sus
+                  <lb/>tarjeta<choice><sic>s –</sic><corr>s.</corr></choice> <hi rend="underline">Una amiguita <choice><sic>mia</sic><corr>mía</corr></choice> le ha
+                  <lb/>gustado mucho <choice><sic>sus</sic><corr>su</corr></choice></hi> <del extent="3 characters">pos</del> <hi rend="underline"><choice><sic>caligrafia</sic><corr>caligrafía</corr></choice></hi>
+                  <lb/>y me ha pedido que le haga firmar
+                  <lb/>esa postal que le adjunt<choice><sic>o - </sic><corr>o, </corr></choice>¿quiere
+                  <lb/>hacerme ese favor? Se los <sic><sic>agradeceria –</sic><corr>agradecería.</corr></sic>
+                  <lb/>Me dice Ud. en una postal que no
+                  <lb/><choice><sic>creia</sic><corr>creía</corr></choice> que yo era tan lind<choice><sic>a –</sic><corr>a.</corr></choice> Sin embargo</p>
                </div>
                <div xml:lang="en">
-                  <p>Distinguished Correspondent: I have received 
-                     four postcards from the collection that
-                     you are sending me. It is very nice, 
-                     thank you. I will tell you that I could not 
-                     reply to your pretty postcards because 
-                     I was far away from this town, at a friend’s 
-                     ranch - and since I could not come here, 
-                     I did not know that you had sent them to me. 
-                     Why are you sending them to [?]? Don't you know 
-                     that I am again in P. Perez? However, I sent 
-                     you word of this. So I beg your pardon and 
-                     apologize for not answering your cards. 
-                     A little friend of mine liked your calligraphy 
-                     very much and asked me to have you sign the 
-                     enclosed postcard. Would you do me that favor? 
-                     I would appreciate it. You tell me on a 
-                     postcard that you didn't think I was so pretty. [?]
-                  </p>
+                  <salute>Distinguished Correspondent,</salute> <p>I have received 
+                     <lb/>four postcards from the collection that
+                     <lb/>you are sending me. It is very nice, 
+                     <lb/>thank you. I will tell you that I could not 
+                     <lb/>reply to your pretty postcards because 
+                     <lb/>I was far away from this town, at a friend’s 
+                     <lb/>ranch - and since I could not come here, 
+                     <lb/>I did not know that you had sent them to me. 
+                     <lb/>Why are you sending them to [place]? Don't you know 
+                     <lb/>that I am again in R. Perez? However, I sent 
+                     <lb/>you word of this. So I beg your pardon and 
+                     <lb/>apologize for not answering your cards. 
+                     <lb/>A little friend of mine liked your calligraphy 
+                     <lb/>very much and asked me to have you sign the 
+                     <lb/>enclosed postcard. Would you do me that favor? 
+                     <lb/>I would appreciate it. You tell me on a 
+                     <lb/>postcard that you didn't think I was so pretty. However</p>
                </div>
             </div> 
          </body>
@@ -565,33 +584,36 @@
          <body>
             <div type="page" facs="#E_Musetti_1_1905_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <p>El crepúsculo es
-                  el saludo postrer
-                  del dia que huye.
-                  Angel Pinola
-                  24/11/905
-                  </p>
+                  <lg>
+                     <l>El crepúsculo es</l>
+                     <l>el saludo postrer</l>
+                     <l>del <choice><sic>dia</sic><corr>día</corr></choice> que huye.</l>
+                  </lg>
+                  <closer><signed><persName>Angel Pinola</persName></signed>
+                  <lb/><date when="1905-11-24">24/11/905</date></closer>
                </div>
                <div xml:lang="en">
-                  <p>The twilight is
-                     the last greeting
-                     of the escaping day.
-                     Angel Pinola
-                     24/11/905
-                  </p>
+                  <lg>
+                     <l>The twilight is</l>
+                     <l>the last greeting</l>
+                     <l>of the escaping day.</l>
+                  </lg>
+                  <closer><signed><persName>Angel Pinola</persName></signed>
+                  <lb/><date when="1905-11-24">24/11/905</date></closer>
                </div>
             </div> 
             <div type="page" facs="#E_Musetti_1_1905_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Sr
-                  Ernesto Musetti
-                  Cerrito 138
-                  Ciudad
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Sr
+                  <lb/><persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Cerrito 138
+                  <lb/>Ciudad</placeName>
+               </ab></div>
                <div xml:lang="en">
-                  <p>Mr.
-                  Ernesto Musetti
-                  Cerrito 138
-                  Ciudad</p>
+                  <ab>Mr.
+                  <lb/><persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Cerrito 138
+                  <lb/>Ciudad</placeName></ab>
                </div>
             </div> 
          </body>
@@ -652,35 +674,37 @@
                      <l>La imagen de la esperanza</l>
                      <l>Como una vela en el mar.</l>
                   </lg>
-                  <closer>
-                  <lb/><signed><persName>María Botti</persName></signed>
-                  <lb/><dateline>14/4/6</dateline>
+                  <closer><signed><persName>María Botti</persName></signed>
+                  <lb/><date when="1906-04-14">14/4/6</date>
                   </closer>
                </div>
                <div xml:lang="en">
-                  <p>In the waves of grief
-                     Always in the distance rises 
-                     The image of hope
-                     Like a sail on the sea.
-                  </p>
+                  <lg>
+                     <l>In the waves of grief</l>
+                     <l>Always in the distance rises</l> 
+                     <l>The image of hope</l>
+                     <l>Like a sail on the sea.</l>
+                  </lg>
                   <closer>
-                     <lb/><signed><persName>María Botti</persName></signed>
-                     <lb/><dateline>14/4/6</dateline>
+                     <signed><persName>María Botti</persName></signed>
+                     <lb/><date when="1906-04-14">14/4/6</date>
                   </closer>
                </div>
             </div> 
             <div type="page" facs="#E_Musetti_2_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Señor 
-                  Ernesto Musetti
-                  Cerrito 138
-                  Ciudad
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Señor 
+                  <lb/><persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Cerrito 138
+                  <lb/>Ciudad</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Mister
-                     Ernesto Musetti
-                     Cerrito 138
-                     Ciudad
-                  </p>
+                  <ab>Mr.
+                     <lb/><persName>Ernesto Musetti</persName>
+                     <lb/><placeName>Cerrito 138
+                     <lb/>Ciudad</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
