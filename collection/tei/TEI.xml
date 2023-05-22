@@ -760,38 +760,37 @@
             <div type="page" facs="#E_Musetti_3_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>La naturaleza se vanagloria
-                  al contemplar sus inimitables
-                  obras y se manifiesta orgullosa
-                  con los artistas, puesto que
-                  ninguno de ellos llegará jamás
-                  a igualarla.
-                  E Musetti
-                  Marzo 1906</p>
+                  <lb/>al contemplar sus inimitables
+                  <lb/>obras y se manifiesta orgullosa
+                  <lb/>con los artistas, puesto que
+                  <lb/>ninguno de ellos llegará jamás
+                  <lb/>a igualarla.</p>
+                  <lb/><closer><signed><persName>E Musetti</persName></signed>
+                  <lb/><date when="1906-03">Marzo 1906</date></closer>
                </div>
-               <div>
-                  <p xml:lang="en">Nature boasts
-                     when contemplating her inimitable 
-                     work and displays herself proudly 
-                     to the artists, as 
-                     none of them will ever 
-                     match her
-                     E Musetti
-                     March 1906
-                  </p>
+               <div xml:lang="en">
+                  <p>Nature boasts
+                  <lb/>when contemplating her inimitable 
+                  <lb/>work and displays herself proudly 
+                  <lb/>to the artists, as 
+                  <lb/>none of them will ever 
+                  <lb/>match her.</p>
+                  <lb/><closer><signed><persName>E Musetti</persName></signed>
+                  <lb/><date when="1906-03">March 1906</date></closer>
                </div>
             </div> 
             <div type="page" facs="#E_Musetti_3_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Señor
-                  Ernesto Musetti
-                  Cerrito 138
-                  Bs Aires</p>
+                  <ab>Señor
+                  <lb/><persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Cerrito 138
+                  <lb/>Bs Aires</placeName></ab>
                </div>
                <div xml:lang="en">
-                  <p>Mister
-                     Ernesto Musetti
-                     Cerrito 138
-                     Bs Aires</p>
+                  <ab>Mr.
+                  <lb/><persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Cerrito 138
+                  <lb/>Bs Aires</placeName></ab>
                </div>
             </div> 
          </body>
@@ -845,37 +844,43 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#E_Musetti_4_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>El hombre se
-                  balancea en
-                  las ilusiones de
-                  la vida como
-                  la frágil
-                  barquilla sobre 
-                  las olas del mar.
-                  Su corresponsal
-                  Claudina Monlezun
-                  Noviembre 24, 1904
-               </p></div>
+               <div xml:lang="es">
+                  <lg>
+                     <l>El hombre se</l>
+                     <l>balancea en</l>
+                     <l>las ilusiones de</l>
+                     <l>la vida como</l>
+                     <l>la frágil</l>
+                     <l>barquilla sobre</l> 
+                     <l>las olas del mar.</l>
+                  </lg>
+                  <closer><salute>Su corresponsal</salute>
+                  <lb/><signed><persName>Claudina Monlezun</persName></signed>
+                  <lb/><date when="1904-11-24">Noviembre 24, 1904</date></closer>
+               </div>
                <div xml:lang="en">
-                  <p>Man 
-                     balances himself on
-                     the illusions of life 
-                     like a fragile
-                     sailboat on
-                     the sea waves.
-                     Yours,
-                     Claudina Monlezun
-                     November 24, 1904
-                  </p>
+                  <lg>
+                     <l>Man</l> 
+                     <l>balances himself</l>
+                     <l>on the illusions</l>
+                     <l>of life</l>
+                     <l>like a fragile</l>
+                     <l>sailboat on</l>
+                     <l>the sea waves.</l>
+                  </lg>
+                  <closer>Yours,
+                     <lb/><signed><persName>Claudina Monlezun</persName></signed>
+                     <lb/><date when="1904-11-24">November 24, 1904</date></closer>
                </div>
             </div> 
             <div type="page" facs="#E_Musetti_4_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Señor Ernesto Musetti
-                  Buenos. Aires 
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Señor <persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Buenos. Aires</placeName></ab>
+               </div>
                <div xml:lang="en">
-                  <p>Mister Ernesto Musetti
-                     Buenos Aires
+                  <p>Mr. <persName>Ernesto Musetti</persName>
+                  <lb/><placeName>Buenos Aires</placeName>
                   </p>
                </div>
             </div> 
@@ -930,39 +935,47 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#M_Quintela_1_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>Maria
-                  Quien te saluda y
-                  hase votos por tu felicidad
-                  y dicha es esta amiga
-                  que mucho te quiere.
-                  !Adiós!
-                  Julia Menchaca
-                  
-                  Treinta y Tres
-                  12 = 16 – 1906
-               </p></div>
+               <div xml:lang="es">
+                  <opener>
+                     <salute>
+                        <persName>
+                           <choice><sic>Maria</sic><corr>María</corr></choice>
+                        </persName>
+                     </salute>
+                  </opener>
+                  <lb/><p>Quien te saluda y
+                  <lb/><choice><sic>hase</sic><corr>hace</corr></choice> votos por tu felicidad
+                  <lb/>y dicha es esta amiga
+                  <lb/>que mucho te quiere.</p>
+                  <lb/><closer><salute><choice><sic>!</sic><corr>¡</corr></choice>Adiós!</salute>
+                  <lb/><signed><persName>Julia Menchaca</persName></signed>
+                  <lb/><dateline><placeName>Treinta y Tres</placeName>
+                  <lb/><date when="1906-12-16">12 = 16 – 1906</date></dateline></closer>
+               </div>
                <div xml:lang="en">
-                  <p>Maria, 
-                     The one who greets you 
-                     And prays for your happiness
-                     Is this friend of yours
-                     That loves you dearly.
-                     Adieu!
-                     Julia Menchaca
-                     
-                     Treinta y Tres
-                     12=16-1906
-                  </p></div>
+                  <opener><salute><persName>María</persName>,</salute></opener> 
+                     <lb/><p>The one who greets you 
+                     <lb/>And prays for your happiness
+                     <lb/>Is this friend of yours
+                     <lb/>That loves you dearly.</p>
+                     <lb/><closer><salute>Adieu!</salute>
+                     <lb/><signed><persName>Julia Menchaca</persName></signed>
+                     <lb/><dateline><placeName>Treinta y Tres</placeName>
+                     <lb/><date when="1906-12-16">12=16-1906</date></dateline></closer>
+               </div>
             </div> 
             <div type="page" facs="#M_Quintela_1_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Señorita
-                  Maria Quintela
-                  Olimar
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Señorita
+                  <lb/><persName><choice><sic>Maria</sic><corr>María</corr></choice> Quintela</persName>
+                  <lb/><placeName>Olimar</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Miss Maria Quintela
-                     Olimar
-                  </p>
+                  <ab>Miss 
+                     <lb/><persName>María Quintela</persName>
+                     <lb/><placeName>Olimar</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1016,38 +1029,45 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#M_Quintela_2_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>33” 4 – 10 – 1907
-                  
-                  Como estrecha esta preciosa
-                  niña su gatito quiciera te-
-                  ner la dicha de estrechar-
-                  te a ti mi Maruja que-
-                  rida, entre mis
-                  brazos.
-                  
-                  Esperamoste pronto.
-                  Tu prima
-                  Josefita
-               </p></div>
+               <div xml:lang="es">
+                  <opener>
+                     <dateline><placeName>33”</placeName> <date when="1907-10-04">4 – 10 – 1907</date></dateline>
+                  </opener>
+                  <lb/><p>Como estrecha esta preciosa
+                  <lb/>niña su gatito <choice><sic>quiciera</sic><corr>quisiera</corr></choice> te-
+                  <lb break="no"/>ner la dicha de estrechar-
+                  <lb break="no"/>te a ti mi Maruja que-
+                  <lb break="no"/>rida, entre mis
+                  <lb/>brazos.</p>
+                  <lb/><closer><salute><choice><sic>Esperamoste</sic><corr>Esperámoste</corr></choice> pronto.
+                  <lb/>Tu prim<choice><sic>a</sic><corr>a,</corr></choice></salute>
+                  <lb/><signed><persName>Josefita</persName></signed>
+                  </closer>
+               </div>
                <div xml:lang="en">
-                  <p>Like this beautiful girl
-                     hugs her kitten, I’d love
-                     to have the pleasure of
-                     hugging you, my dear Maruja,
-                     between my arms.
-                     
-                     We are looking forward to seeing you soon,
-                     Your cousin,
-                     Josefita
-                  </p>
+                  <opener>
+                     <dateline><placeName>33”</placeName> <date when="1907-10-04">4 – 10 – 1907</date></dateline>
+                  </opener>
+                  <lb/><p>Like this beautiful girl
+                  <lb/>hugs her kitten, I’d love
+                  <lb/>to have the pleasure of
+                  <lb/>hugging you, my dear Maruja,
+                  <lb/>between my arms.</p>
+                  <lb/><closer><salute>We are looking forward to seeing you soon,
+                  <lb/>Your cousin,</salute>
+                  <lb/><signed><persName>Josefita</persName></signed></closer>
                </div>
             </div> 
             <div type="page" facs="#M_Quintela_2_1907_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Sta
-                  Maruja J Quintela
-               </p></div>
-               <div xml:lang="en"><p>Miss
-                  Maruja J. Quintela</p>
+               <div xml:lang="es">
+                  <ab>Sta
+                  <lb/><persName>Maruja J Quintela</persName>
+                  </ab>
+               </div>
+               <div xml:lang="en">
+                  <ab>Miss
+                  <lb/><persName>Maruja J. Quintela</persName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1102,35 +1122,44 @@
          <body>
             <div type="page" facs="#M_Quintela_3_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <p>“33 11 – 13 de 1907
-                  
-                  Deseo que tu como la figura
-                  que presenta esta postal ten-
-                  gas quién te diga lo mismo
-                  que en esta
-                  Diosma Silvera
-                  
-                  *Printed text: Para mi que momento encantador, leo en tus ojos el mas ardiente amor*
-               </p></div>
+                  <opener><dateline><placeName>“33</placeName> <date when="1907-11-13">11 – 13 de 1907</date></dateline></opener>
+                  <lb/><p>Deseo que <choice><sic>tu</sic><corr>tú</corr></choice> como la figura
+                  <lb/>que presenta esta postal ten-
+                  <lb break="no"/>gas quién te diga lo mismo
+                  <lb/>que en est<choice><sic>a</sic><corr>a.</corr></choice></p>
+                  <lb/><closer><signed><persName>Diosma Silvera</persName></signed></closer>
+                  <lb/><figure>
+                     <ab type="pre-printed">
+                        "Para <choice><sic>mi</sic><corr>mí</corr></choice> que momento encantador, leo en tus ojos el <choice><sic>mas</sic><corr>más</corr></choice> ardiente amor."
+                     </ab>
+                  </figure>
+               </div>
                <div xml:lang="en">
-                  <p>“33 11 – 13 of 1907
-                     
-                     I wish for you to have someone to tell you
-                     the same words as the person in this postcard
-                     Diosma Silvera
-                     
-                     *Printed text: such a lovely moment for me, to see in your eyes the most ardent love.
-                     
-                  </p></div>
+                  <opener><dateline><placeName>“33</placeName> <date>11 – 13 of 1907</date></dateline></opener>
+                  <lb/><p>I wish for you 
+                     <lb/>to have someone to tell 
+                     <lb/>you the same words as 
+                     <lb/>the person in this postcard</p>
+                     <lb/><closer><signed><persName>Diosma Silvera</persName></signed></closer>
+                  <lb/><figure>
+                        <ab type="pre-printed">
+                           "Such a lovely moment for me, to see in your eyes the most ardent love."
+                        </ab>
+                     </figure>
+                  </div>
             </div> 
             <div type="page" facs="#M_Quintela_3_1907_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Señorita
-                  Maria Quintela
-                  Treinta y Tres
-               </p></div>
-               <div xml:lang="en"><p>Miss
-                  Maria Quintela
-                  Treinta y Tres</p>
+               <div xml:lang="es">
+                  <ab>Señorita
+                  <lb/><persName><choice><sic>Maria</sic><corr>María</corr></choice> Quintela</persName>
+                  <lb/><placeName>Treinta y Tres</placeName>
+                  </ab>
+               </div>
+               <div xml:lang="en">
+                  <ab>Miss
+                  <lb/><persName>María Quintela</persName>
+                  <lb/><placeName>Treinta y Tres</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1184,45 +1213,63 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#M_Quintela_4_1909_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>En tanto que el amor dura
-                  Toda locura es fineza
-                  Luego que olvido empieza
-                  Toda fineza es locura –
-                  12.28.1909
-               </p></div>
+               <div xml:lang="es">
+                  <lg>
+                     <l>En tanto que el amor dura</l>
+                     <l>Toda locura es fineza</l>
+                     <l>Luego que olvido empieza</l>
+                     <l>Toda fineza es locura</l>
+                  </lg>
+                  <closer>
+                     <date when="1909-12-28">12.28.1909</date>
+                  </closer>
+               </div>
                <div xml:lang="en">
-                  <p>As long as love lasts
-                     Every folly is a compliment
-                     When love is forgotten
-                     Every compliment is a folly
-                     12.28.1909
-                  </p>
+                  <lg>
+                     <l>As long as love lasts</l>
+                     <l>Every folly is a compliment</l>
+                     <l>When love is forgotten</l>
+                     <l>Every compliment is a folly</l>
+                  </lg>
+                  <closer>
+                     <date when="1909-12-28">12.28.1909</date>
+                  </closer>
                </div>
             </div> 
             <div type="page" facs="#M_Quintela_4_1909_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Que el año que se inicia
-                  sea para tí, portador de
-                  la dicha y felicidad que
-                  te desea quien bien te quiere
-                  Julia Margarita
-                  
-                  Señorita
-                  Maria J. Quintela
-                  Olimar Grande
-               </p></div>
-               <div xml:lang="en">
-                  <p>May the year that begins
-                     Be for you the bearer
-                     Of the joy and happiness
-                     That those who love you
-                     Wish upon you
-                     
-                     Miss
-                     Maria J. Quintela
-                     Olimar Grande
-                  </p>
+               <div xml:lang="es">
+                  <div>
+                     <p>Que el año que se inicia
+                        <lb/>sea para tí, portador de
+                        <lb/>la dicha y felicidad que
+                        <lb/>te desea quien bien te quiere</p>
+                     <lb/><closer><signed><persName>Julia Margarita</persName></signed></closer>
+                  </div>
+                  <div> <!-- We had to add another div to separate message and address. ab on it own was not accepted after closer. -->
+                     <ab>
+                        <lb/>Señorita
+                        <lb/><persName>Maria J. Quintela</persName>
+                        <lb/><placeName>Olimar Grande</placeName>
+                     </ab>
+                  </div>
                </div>
-            </div> 
+               <div xml:lang="en">
+                  <div>
+                     <p>May the year that begins
+                     <lb/>Be for you the bearer
+                     <lb/>Of the joy and happiness
+                     <lb/>That those who love you
+                     <lb/>Wish upon you</p>
+                     <closer><signed><persName>Julia Margarita</persName></signed></closer>
+                  </div>
+                  <div>
+                     <ab>
+                     <lb/>Miss
+                     <lb/>Maria J. Quintela
+                     <lb/>Olimar Grande</ab>
+                  </div>
+               </div>
+            </div>
          </body>
       </text>
    </TEI>
@@ -1274,37 +1321,39 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#M_SaintHilaire_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>¿Que es la vida sin amor?
-                  Lo que una pena sin llanto
-                  Un ruiseñor sin canto
-                  Y sin perfume una flor
-                  Clotilde
-                  Octubre 8/904
-               </p></div>
+               <div xml:lang="es">
+                  <lg>
+                     <l>¿<choice><sic>Que</sic><corr>Qué</corr></choice> es la vida sin amor?</l>
+                     <l>Lo que una pena sin llanto</l>
+                     <l>Un ruiseñor sin canto</l>
+                     <l>Y sin perfume una flor</l>
+                  </lg>
+                  <closer><persName>Clotilde</persName>
+                  <date when="1904-10-08">Octubre 8/904</date></closer>
+               </div>
                <div xml:lang="en">
-                  <p>What is life without love?
-                     It is sadness without tears
-                     A nightingale without a song
-                     And without perfume a flower
-                     Clotilde
-                     October 8/904
-                  </p>
+                  <lg>
+                     <l>What is life without love?</l>
+                     <l>It is sadness without tears</l>
+                     <l>A nightingale without a song</l>
+                     <l>And without perfume a flower</l>
+                  </lg>
+                  <closer><persName>Clotilde</persName>
+                  <date when="1904-10-08">October 8/904</date></closer>
                </div>
             </div> 
             <div type="page" facs="#M_SaintHilaire_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Impreso
-                  
-                  Señorita Maria Saint Hilaire
-                  18 de Julio 503
-                  Capital
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Señorita <persName>Maria Saint Hilaire</persName>
+                  <lb/><placeName>18 de Julio 503
+                  <lb/>Capital</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Printed
-                     
-                     Miss Maria Saint Hilaire
-                     18 de Julio 503
-                     Capital
-                  </p>
+                  <ab>Miss <persName>Maria Saint Hilaire</persName>
+                  <lb/><placeName>18 de Julio 503
+                  <lb/>Capital</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1358,38 +1407,67 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#M_Vinent_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>2-16-1906
-                  
-                  En lo más re-
-                  cóndito de mi
-                  corazon guar-
-                  do su grata
-                  amistad.
-                  Diamante
-               </p></div>
+               <div xml:lang="es">
+                  <opener><date when="1906-02-16">2-16-1906</date></opener>
+                  <lb/><p>En lo más re-
+                  <lb break="no"/>cóndito de mi
+                  <lb/><choice><sic>corazon</sic><corr>corazón</corr></choice> guar-
+                  <lb break="no"/>do su grata
+                  <lb/>amistad.</p>
+                  <lb/><closer><signed><persName>Diamante</persName></signed></closer>
+                  <figure>
+                     <ab type="pre-printed" xml:lang="fr">
+                        <lb/>"La mignonne fleuriste a l'esprit avisé;
+                        <lb/>Elle a vite compris cet aveu déguisé."
+                     </ab>
+                  </figure>
+               </div>
                <div xml:lang="en">
-                  <p>In the deepest recesses of my heart
-                     I keep our lovely friendship
-                     Diamante
-                  </p>
+                  <opener><date when="1906-02-16">2-16-1906</date></opener>
+                  <lb/><p>In the deepest 
+                     <lb/>recesses of 
+                     <lb/>my heart
+                     <lb/>I keep our 
+                     <lb/>lovely friendship.</p>
+                  <lb/><closer><signed><persName>Diamante</persName></signed></closer>
+                  <figure>
+                     <ab type="pre-printed" xml:lang="fr">
+                        <lb/>"La mignonne fleuriste a l'esprit avisé;
+                        <lb/>Elle a vite compris cet aveu déguisé."
+                     </ab>
+                  </figure>
                </div>
             </div> 
             <div type="page" facs="#M_vinent_1906_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Agradecemos y
-                  retribuimos afec-
-                  tuosos saludos
-                  Suya
-                  Diamante
-                  
-                  Sta
-                  Manuela J. Vinent
-                  Fray Marcos
-               </p></div>
+               <div xml:lang="es">
+                  <div>
+                     <p>Agradecemos y
+                     <lb/>retribuimos afec-
+                     <lb/>tuosos saludo<choice><sic>s</sic><corr>s.</corr></choice></p>
+                     <lb/><closer><salute>Suy<choice><sic>a</sic><corr>a,</corr></choice></salute>
+                     <lb/><signed><persName>Diamante</persName></signed></closer>
+                  </div>
+                  <div>
+                     <ab>
+                     <lb/>Sta
+                     <lb/><persName>Manuela J. Vinent</persName>
+                     <lb/><placeName>Fray Marcos</placeName></ab>
+                  </div>
+               </div>
                <div xml:lang="en">
-                  <p>We thank you and return our affectionate greetings
-                     Yours,
-                     Diamante 
-                  </p>
+                  <div>
+                     <p>We thank you and 
+                     <lb/>return our 
+                     <lb/>affectionate greetings</p>
+                     <lb/><closer><salute>Yours,</salute>
+                     <lb/><signed><persName>Diamante</persName></signed> </closer>
+                  </div>
+                  <div>
+                     <ab>
+                     <lb/>Miss                        
+                     <lb/><persName>Manuela J. Vinent</persName>
+                     <lb/><placeName>Fray Marcos</placeName></ab>
+                  </div>
                </div>
             </div> 
          </body>
@@ -1443,46 +1521,48 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#P_deQuincoces_1_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>Queridisima 
-                  hija
-                  Hoy en tu dia
-                  elevo fervientes votos
-                  al Todopoderoso para que
-                  sus designios hacia ti
-                  sean de imperdurable dicha
-                  y te colme de salud y
-                  vienestar por infinitos años
-                  
-                  Josefa M de [C?]
-                  Octubre
-                  5 de 1094
-               </p></div>
+               <div xml:lang="es">
+                  <opener><salute><choice><sic>Queridisima</sic><corr>Queridísima</corr></choice> 
+                  <lb/>hij<choice><sic>a</sic><corr>a:</corr></choice></salute></opener>
+                  <lb/><p>Hoy en tu <choice><sic>dia</sic><corr>día</corr></choice>
+                  <lb/>elevo fervientes votos
+                  <lb/>al Todopoderoso para que
+                  <lb/>sus designios hacia ti
+                  <lb/>sean de imperdurable dicha
+                  <lb/>y te colme de salud y
+                  <lb/><choice><sic>vienestar</sic><corr>bienestar</corr></choice> por infinitos año<choice><sic>s</sic><corr>s.</corr></choice></p>
+                  <lb/><closer><signed><persName>Josefa M de <unclear reason="illegible">C[?]</unclear></persName></signed>
+                  <lb/><date when="1904-10-05">Octubre
+                  <lb/>5 de <choice><sic>1094</sic><corr>1904</corr></choice></date></closer>
+               </div>
                <div xml:lang="en">
-                  <p>My dear daughter,
-                     Today on your day I pray
-                     to the Almighty 
-                     that his designs for you 
-                     are of eternal happiness 
-                     and that he grants you health
-                     and well-being for endless years.
-                     Josefa M de C.
-                     October
-                     5 of 1094
-                  </p>
+                  <opener><salute>My dear 
+                     <lb/>daughter,</salute></opener>
+                  <lb/><p>Today on your day I pray
+                     <lb/>to the Almighty 
+                     <lb/>that his designs for you 
+                     <lb/>are of eternal happiness 
+                     <lb/>and that he grants you health
+                     <lb/>and well-being for endless years.</p>
+                  <lb/><closer><signed><persName>Josefa M de <unclear reason="illegible">C[?]</unclear></persName></signed>
+                     <lb/><date when="1904-10-05">October
+                     <lb/>5 of 1904</date>4</closer>
                </div>
             </div> 
             <div type="page" facs="#P_deQuincoces_1_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Señora
-                  Petrona C de Quincoces
-                  Rivera 50
-                  C V
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Señora
+                  <lb/><persName>Petrona <choice><sic>C</sic><corr>C.</corr></choice> de Quincoces</persName>
+                  <lb/><placeName>Rivera 50
+                  <lb/>C V</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Mrs. 
-                     Petrona C de Quincoces
-                     Rivera 50
-                     C V
-                  </p>
+                  <ab>Mrs. 
+                     <lb/><persName>Petrona C. de Quincoces</persName>
+                     <lb/><placeName>Rivera 50
+                     <lb/>C V</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1538,27 +1618,29 @@
             <div type="page" facs="#P_deQuincoces_2_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>La virtud y la modestia realza la belleza de la
-                  mujer.
-                  Tu ahijada Carolina
-                  Montevideo 10 – 6/904
-               </p></div>
+                  <lb/>mujer.</p>
+                  <lb/><closer><salute>Tu ahijada <persName>Carolina</persName></salute>
+                  <lb/><dateline><placeName>Montevideo</placeName> <date when="1904-06-10">10 – 6/904</date></dateline></closer>
+               </div>
                <div xml:lang="en">
-                  <p>Virtue and modesty enhance a woman’s beauty.
-                     Your goddaughter Carolina
-                     Montevideo 10 – 6/904
-                  </p>
+                  <p>Virtue and modesty enhance a woman’s 
+                     <lb/>beauty.</p>
+                     <lb/><closer><salute>Your goddaughter <persName>Carolina</persName></salute>
+                     <lb/><dateline><placeName>Montevideo</placeName> <date when="1904-04-10">10 – 6/904</date></dateline></closer>
                </div>
             </div> 
             <div type="page" facs="#P_deQuincoces_2_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Sra Petrona C. de Quincoces
-                  Calle Rivera N°50
-                  Ciudad
-               </p></div>
+               <div xml:lang="es">
+                  <ab><persName>Sra Petrona C. de Quincoces</persName>
+                  <lb/><placeName>Calle Rivera N°50
+                  <lb/>Ciudad</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Mrs. Petrona C. de Quincoces
-                     Calle Rivera N°50
-                     Ciudad
-                  </p>
+                  <ab><persName>Mrs. Petrona C. de Quincoces</persName>
+                     <lb/><placeName>Calle Rivera N°50
+                     <lb/>Ciudad</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1612,48 +1694,53 @@
          <!-- content of first postcard -->
          <body>
             <div type="page" facs="#P_deQuincoces_3_1908_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
-               <div xml:lang="es"><p>1 – 1 – 1.908 
-                  
-                  Crescencia Tassano
-               </p></div>
+               <div xml:lang="es">
+                  <ab><date when="1908-01-01">1 – 1 – 1.908</date>
+                  <lb/><persName>Crescencia Tassano</persName></ab>
+               </div>
                <div xml:lang="en">
-                  <p>1 – 1- 1.908
-                     Crescencia Tassano
-                  </p>
+                  <ab><date when="1908-01-01">1 – 1 – 1.908</date>
+                   <lb/><persName>Crescencia Tassano</persName>
+                  </ab>
                </div>
             </div> 
             <div type="page" facs="#P_deQuincoces_3_1908_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Que Dios envie á la
-                  tierra un sinnumeros de
-                  felicidades para su muy
-                  querida y apreciable
-                  existencia son los mas
-                  vivos deseos de su ahijada
-                  la que la besa y abr
-                  aza con efucion
-                  Crescencia
-                  
-                  Señora
-                  Petrona C de Quincoces
-                  Calle Rivera Chica N°50
-                  Montevideo
-               </p></div>
+                  <div>
+                     <p>Que Dios <choice><sic>envie á</sic><corr>envíe a</corr></choice> la
+                     <lb/>tierra un <choice><sic>sinnumeros</sic><corr>sinnúmeros</corr></choice> de
+                     <lb/>felicidades para su muy
+                     <lb/>querida y apreciable
+                     <lb/>existencia son los <choice><sic>mas</sic><corr>más</corr></choice>
+                     <lb/>vivos deseos de su ahijada
+                     <lb/>la que la besa y <choice><sic>abr</sic><corr>abra-</corr></choice>
+                     <lb break="no"/><choice><sic>aza</sic><corr>za</corr></choice> con <choice><sic>efucion</sic><corr>efusión.</corr></choice></p>
+                     <lb/><closer><signed><persName>Crescencia</persName></signed></closer>
+                  </div>
+                  <div>
+                     <lb/><ab>Señora
+                     <lb/><persName>Petrona C de Quincoces</persName>
+                     <lb/><placeName>Calle Rivera Chica N°50
+                     <lb/>Montevideo</placeName></ab>
+                  </div>
+               </div>
                <div xml:lang="en">
-                  <p>May God send to 
-                     Earth countless blessings 
-                     For your very dear and estimable 
-                     Existence. These are the most heartfelt 
-                     Wishes of your goddaughter, 
-                     who sends you warm kisses
-                     And hugs.
-                     Crescencia
-                     
-                     Mrs. 
-                     Petrona C. de Quincoces
-                     Calle RiveraN°50
-                     Montevideo
-                  </p>
+                  <div>
+                     <p>May God send to 
+                     <lb/>Earth countless blessings 
+                     <lb/>for your very dear and estimable 
+                     <lb/>existence. These are the most heartfelt 
+                     <lb/>wishes of your goddaughter, 
+                     <lb/>who sends you warm kisses
+                     <lb/>and hugs.</p>
+                     <lb/><closer><signed><persName>Crescencia</persName></signed></closer>
+                  </div>
+                  <div>
+                     <lb/><ab>Mrs. 
+                     <lb/><persName>Petrona C. de Quincoces</persName>
+                     <lb/><placeName>Calle RiveraN°50
+                     <lb/>Montevideo</placeName></ab>
+                  </div>
                </div> 
             </div> 
          </body>
@@ -1708,36 +1795,36 @@
          <body>
             <div type="page" facs="#P_Grand_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <p>Enero 1
-                  De 1907
-                  
-                  Muchas 
-                  *Felicidades*
-                  te desea en el
-                  dia de hoy tu
-                  amiga
-                  Rosa Luraschi
-               </p></div>
+                  <opener><date when="1907-01-01">Enero 1
+                  <lb/>De 1907</date></opener>
+                  <lb/><p>Muchas 
+                  <lb/><seg type="pre-printed">"Felicidades"</seg>
+                  <lb/>te desea en el
+                  <lb/><choice><sic>dia</sic><corr>día</corr></choice> de hoy tu
+                  <lb/>amig<choice><sic>a</sic><corr>a,</corr></choice></p>
+                  <lb/><closer><signed><persName>Rosa Luraschi</persName></signed></closer>
+               </div>
                <div xml:lang="en">
-                  <p>January 1 
-                     1907
-                     
-                     Your friend
-                 congratulates
-                  On this day
-                  Rosa Luraschi</p>
+                  <opener><date when="1907-01-01">January 1 
+                  <lb/>1907</date></opener>
+                  <lb/><p>Your friend
+                  <lb/>congratulates
+                  <lb/>on this day</p>
+                  <lb/><closer><signed><persName>Rosa Luraschi</persName></signed></closer>
                </div>
             </div> 
             <div type="page" facs="#P_Grand_1907_s2"> <!-- type and facs / Transcribed text - side 2 -->
-               <div xml:lang="es"><p>Sta
-                  Paula Grand
-                  Ciudad
-               </p></div>
+               <div xml:lang="es">
+                  <ab>Sta
+                  <lb/><persName>Paula Grand</persName>
+                  <lb/><placeName>Ciudad</placeName>
+                  </ab>
+               </div>
                <div xml:lang="en">
-                  <p>Miss
-                     Paula Grand
-                     Ciudad
-                  </p>
+                  <ab>Miss
+                  <lb/><persName>Paula Grand</persName>
+                  <lb/><placeName>Ciudad</placeName>
+                  </ab>
                </div>
             </div> 
          </body>
@@ -1792,43 +1879,46 @@
          <body>
             <div type="page" facs="#V_Magallanes_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
-                  <p>Victor Hugo fué un gigante de
-                  aquellos que él mismo clasifi
-                  có de hombres océanos. después
-                  de haberlo contemplado todo
-                  hombre tiene que confesar
-                  que no hay tempestades
-                  mas grandiosas que
-                  las que agitan sus
-                  ondas ni tintas mas dulces que las
-                  que ostenta su superficie en las horas fugaces
-                  de la calma.
-                  José Salgado 
-               </p></div>
+                  <p>Victor Hugo <choice><sic>fué</sic><corr>fue</corr></choice> un gigante de
+                  <lb/>aquellos que él mismo clasif<choice><sic>i</sic><corr>i-</corr></choice>
+                  <lb break="no"/>có de hombres océanos. <choice><sic>d</sic><corr>D</corr></choice>espués
+                  <lb/>de haberlo contemplad<choice><sic>o</sic><corr>o,</corr></choice> todo
+                  <lb/>hombre tiene que confesar
+                  <lb/>que no hay tempestades
+                  <lb/><choice><sic>mas</sic><corr>más</corr></choice> grandiosas que
+                  <lb/>las que agitan sus
+                  <lb/>ondas ni tintas <choice><sic>mas</sic><corr>más</corr></choice> dulces que las
+                  <lb/>que ostenta su superficie en las horas fugaces
+                  <lb/>de la calma.</p>
+                  <lb/><closer><signed><persName>José Salgado</persName></signed></closer> 
+               </div>
                <div xml:lang="en">
-                  <p>Victor Hugo was one of those giants t
-                     hat he himself called Ocean-man. 
-                     After having contemplated the ocean, every man 
-                     must confess that there are no storms more 
-                     majestic than those that agitate its waves, 
-                     nor inks sweeter than those reflected on its
-                     surface in the fleeting hours of calm.
-                     José Salgado
-                  </p>
+                  <p>Victor Hugo was one of those 
+                  <lb/>giants that he himself called 
+                  <lb/>Ocean-man. After having 
+                  <lb/>contemplated the ocean, 
+                  <lb/>every man must confess 
+                  <lb/>that there are no storms more 
+                  <lb/>majestic than those that 
+                  <lb/>agitate its waves, nor inks 
+                  <lb/>sweeter than those reflected 
+                  <lb/>on its surface in the 
+                  <lb/>fleeting hours of calm.</p>
+                  <lb/><closer><signed><persName>José Salgado</persName></signed></closer>
                </div>
             </div> 
             <div type="page" facs="#V_Magallanes_1904_s2"> <!-- type and facs / Transcribed text - side 2 -->
                <div xml:lang="es">
-                  <p>Sr *M*ayor Vicente Magallanes
-                  Avenida de la Paz entre
-                  Río Negro y O. del Plata (B. 13 de G. Nacionales)
-                  Ciudad
-               </p></div>
+                  <ab>Sr <seg type="pre-printed">M</seg>ayor <persName>Vicente Magallanes</persName>
+                  <lb/><placeName>Avenida de la Paz entre
+                  <lb/>Río Negro y O. del Plata (B. 13 de G. Nacionales)
+                  <lb/>Ciudad</placeName></ab>
+               </div>
                <div xml:lang="en">
-                  <p>Mr. *M*ajor Vicente Magallanes
-                  Avenida de la Paz between
-                  Río Negro and O. del Plata (B. 13 de G. Nacionales)
-                  Ciudad</p>
+                  <ab>Mr. <seg type="pre-printed">M</seg>ayor <persName>Vicente Magallanes</persName>
+                  <lb/><placeName>Avenida de la Paz entre
+                  <lb/>Río Negro y O. del Plata (B. 13 de G. Nacionales)
+                  <lb/>Ciudad</placeName></ab>
                </div>
             </div> 
          </body>
