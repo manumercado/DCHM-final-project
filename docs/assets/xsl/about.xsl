@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-
+    
     <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <xsl:text>&#xa;</xsl:text>
@@ -39,32 +39,13 @@
                     <a href="about.html">About the Project</a> |
                 </nav>
                 <main>
-                    <div class="row">
-                        <div class="col-sm">
-                            <img class="full-image" src="assets/img/testimage.jpeg" alt="a dog"></img>
-                        </div>
-                        
-                        <div class="col-sm">
-                            <article>
-                                <h2>Introduction</h2>
-                                <p>
-                                    <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
-                                </p>
-                            </article>
-                        </div>
-                    </div>
+
+
                 </main>
-                <footer>
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                    </a>
-                    <br/>This work is licensed under a 
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-                </footer>
             </body>
         </html>
     </xsl:template>
-
+    
     <xsl:template match="tei:teiHeader"/>
-
+    
 </xsl:stylesheet>

@@ -28,15 +28,16 @@
                             <h1>
                                 <xsl:value-of select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                             </h1>
-                            <h2>
-                                Description: <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                            </h2>
                         </header>
                         <nav id="sitenav">
                             <a href="index.html">Home</a> |
                             <a href="postcards.html">Postcard Collection</a> |
+                            <a href="about.html">About the Project</a> |
                         </nav>
                         <main>
+                            <h2>
+                                <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                            </h2>
                             <div class="container"> <!-- Contains both images and transcriptions side to side -->
                                 
                                 <div id="buttons"> <!-- Display different versions of the texts; affects s1 and s2 -->               

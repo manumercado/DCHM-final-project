@@ -7,10 +7,30 @@
       <fileDesc>
          <titleStmt>
             <title>Postcards from the Southern Cone: a DCHM project</title>
+            <respStmt>
+               <resp>Digitization, markup and digital publication</resp>
+               <name xml:id="MF">Manuela Francisca Mercado Campero</name>
+               <name xml:id="HN">Haliimah Nabuuma</name>
+               <orgName>The University of Borås</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority></authority>
+            <authority>Manuela Francisca Mercado Campero</authority>
+            <authority>Haliimah Nabuuma</authority>
+            <distributor>The University of Borås</distributor>
+            <address> 
+               <addrLine>Allégatan 1</addrLine>
+               <addrLine>503 32 Borås</addrLine>
+               <addrLine>Sweden</addrLine>
+            </address>
+            <availability>
+               <licence>Licensed with a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attibution</ref> licence. </licence>
+            </availability>
+            <date when="2023-05-17">May 17, 2023</date>
          </publicationStmt>
+         <notesStmt>
+            <note>Examination for the Digitizing Cultural Heritage Material course 32LDK, at the University of Borås <date>Examination 2023</date></note>
+         </notesStmt>
          <sourceDesc>
             <bibl>A collection of twenty postcards from Argentina and Uruguay, between 1900 and 1910.</bibl>
          </sourceDesc>
@@ -32,7 +52,29 @@
                <authority></authority>
             </publicationStmt>
             <sourceDesc>
-               <bibl></bibl>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>C_Abreu_1905</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1905. 
+                        <lb/>It is the image of a woman in formal dress; sepia and glitter and it is handwritten on both sides. 
+                        <lb/>The postcard is part of a colletion owned by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.5</height>
+                                 <width>8.5</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>

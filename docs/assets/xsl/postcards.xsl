@@ -34,8 +34,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> | <a href="postcards.html">Postcard Collection</a>
-                    | </nav>
+                    <a href="index.html">Home</a> | 
+                    <a href="postcards.html">Postcard Collection</a> | 
+                    <a href="about.html">About the Project</a> |
+                </nav>
                 <main id="postcards">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
