@@ -37,7 +37,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Here we can write a project descrition that will go in the home page?</p>
+            <p>The TEI encoding project has been undertaken as an integral component of the digitizing Cultural Heritage Materials course as part of the master’s program in Library and Information Science at the University of Borås.
+               This collection holds 20 postcards from the Southern Cone region, specifically Argentina and Uruguay,dating between 1900-1910.      
+            </p>
          </projectDesc>
       </encodingDesc>
    </teiHeader>
@@ -49,7 +51,8 @@
                <title>Postcard to Conrrada Abreu</title>
             </titleStmt>
             <publicationStmt>
-               <authority></authority>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
                <msDesc>
@@ -58,7 +61,8 @@
                   </msIdentifier> 
                   <msContents>
                      <summary>The original postcard was sent in 1905. 
-                        <lb/>It is the image of a woman in formal dress; sepia and glitter and it is handwritten on both sides. 
+                        <lb/>It is the image of a woman in formal dress; sepia and glitter.
+                        <lb/>It has typewritten text on both sides, the back of a postcard with the recipient's information
                         <lb/>The postcard is part of a colletion owned by Alicia Pi.</summary>
                   </msContents>
                   <physDesc>
@@ -96,7 +100,7 @@
             <figure>
                <label>Postcard to Conrrada E. Abreu - Front</label>
                <figDesc>An image of a woman posing and typewritten message.</figDesc>
-               <graphic xml:id="C_Abreu_1905_s1_full" url="assets/img/postcards/C_Abreu_1905_s1.jpeg"/> <!-- image displayed side by side with stranscription -->
+               <graphic xml:id="C_Abreu_1905_s1_full" url="assets/img/postcards/C_Abreu_1905_s1.jpeg"/> <!-- image displayed side by side with transcription -->
                <graphic xml:id="TestC_Abreu_1905_s1_thumb" url="assets/img/postcards/C_Abreu_1905_s1_thumb.jpeg"/> <!-- image used for general overview -->
             </figure>
          </surface>
@@ -104,14 +108,14 @@
             <figure>
                <label>Postcard to Conrrada E. Abreu - Back</label>
                <figDesc>The back of a postcard with the recipient's information</figDesc>
-               <graphic xml:id="C_Abreu_1905_s2_full" url="assets/img/postcards/C_Abreu_1905_s2.jpeg"/> <!-- image displayed side by side with stranscription -->
+               <graphic xml:id="C_Abreu_1905_s2_full" url="assets/img/postcards/C_Abreu_1905_s2.jpeg"/> <!-- image displayed side by side with transcription -->
             </figure>
          </surface>
       </facsimile>
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#C_Abreu_1905_s1"> <!-- Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#C_Abreu_1905_s1"> <!-- Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <salute><persName>Conrrada</persName></salute>
                   <lb/><p>Mi <choice><sic>aspiracion</sic><corr>aspiración</corr></choice> <choice><sic>mas</sic><corr>más</corr></choice> <choice><sic>gran</sic><corr>gran-</corr></choice>
@@ -161,10 +165,34 @@
                <title>Postcard to Clementina Ghione</title> <!-- Something like: Postcard to XX -->
             </titleStmt>
             <publicationStmt>
-               <authority></authority>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <bibl></bibl>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>C_Ghione_1905</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1905. 
+                        <lb/>It is  image of an old rural cottage in a golden frame; color and relief.
+                         <lb/> It has handwritten text on both sides.The back of a postcard with the recipient's information and a stamp fragment.
+                        <lb/>The postcard is part of a colletion owned by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.6</height>
+                                 <width>8.9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -201,7 +229,7 @@
       <text>
          <!-- content of postcard -->
          <body>
-            <div type="page" facs="#C_Ghione_1905_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#C_Ghione_1905_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><dateline><date when="1905-11-23">XI-XXIII-1905</date></dateline>
                   <lb/><signed><persName>Clara</persName></signed>
@@ -241,10 +269,34 @@
                <title>Postcard to <foreign xml:lang="es" >Distinguido corresponsal</foreign> (1)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>D_Corresponsal_1_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>The image of a plant; color and relief; with handrwitten text on both sides. 
+                        <lb/> Front side wit a stamp and the back side had senders's signature.
+                        <lb/>The postcard is part of a colletion owned by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -281,7 +333,7 @@
       <text>
          <!-- content of postcard -->
          <body>
-            <div type="page" facs="#D_Corresponsal_1_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#D_Corresponsal_1_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>
                      <lb/>Lo más delicioso en una flor
@@ -354,10 +406,34 @@
                <title>Postcard to <foreign xml:lang="es">Distinguido Corresponsal</foreign> (2)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>D_Corresponsal_2_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is the image of a red 1906 seal and a rosehip branches against a golden background,It has handwritten text on both sides. 
+                        <lb/> The front side has one stamp and back side sender's signature.
+                        <lb/>The postcard is part of a colletion owned by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -394,7 +470,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#D_Corresponsal_2_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#D_Corresponsal_2_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>Feliz año nuevo le desea su
                   <lb/>corresponsal y amig<choice><sic>a</sic><corr>a.</corr></choice></p>
@@ -462,10 +538,33 @@
                <title>Postcard to <foreign xml:lang="es">Distinguido corresponsal</foreign>(3)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>xml:id="D_Corresponsal_3_1906"</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is an image of a flower and It has handwritten text on both sides. With one stamp
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -502,7 +601,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#D_Corresponsal_3_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#D_Corresponsal_3_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>yo le <choice><sic>dire</sic><corr>diré</corr></choice> que en esa <choice><sic>fotografia</sic><corr>fotografía</corr></choice> no estoy nada
                   <lb/>bien – soy mucho mejo<choice><sic>r – m</sic><corr>r. M</corr></choice>uchas gracias por
@@ -584,10 +683,34 @@
                <title>Postcard to Ernesto Musetti (1)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>xml:id="E_Musetti_1_1905</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1905. 
+                        <lb/>It is an image of a rural landscape, including two horses and a farmer.It has handwritten text on both sides.
+                        <lb/>Front side with two stamps and back side with recipient's information.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi..</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.9</height>
+                                 <width>8.8</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -624,7 +747,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#E_Musetti_1_1905_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#E_Musetti_1_1905_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <lg>
                      <l>El crepúsculo es</l>
@@ -668,10 +791,34 @@
                <title>Postcard to Ernesto Musetti (2)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>E_Musetti_2_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is an image of Maritime motif, sailboats in the horizon.It has handwritten text on both sides.
+                        <lb/> Front side with one stamp and back side with reciepient and address.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -708,7 +855,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#E_Musetti_2_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#E_Musetti_2_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div>               
                   <lg type="stanza">
                      <l>En las olas del pesar</l>
@@ -759,10 +906,34 @@
                <title>Postcard to Ernesto Musetti (3)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>E_Musetti_3_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is an image of Coastal landscape: Torquay Natural Arch.It has handwritten text on both sides.
+                        <lb/> Front side withone stamp and back side with receipient name  and address.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.9</height>
+                                 <width>8.8</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -799,7 +970,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#E_Musetti_3_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#E_Musetti_3_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>La naturaleza se vanagloria
                   <lb/>al contemplar sus inimitables
@@ -845,10 +1016,34 @@
                <title>Postcard to Ernesto Musetti (4)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>E_Musetti_4_1904</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1904.
+                        <lb/>It is an image of Maritime motif, ships in the ocean.It has handwritten text on both sides.
+                        <lb/>With one stamp on the front side and the back side it has recipient and address.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14 cm</height>
+                                 <width>9 cm</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -885,7 +1080,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#E_Musetti_4_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#E_Musetti_4_1904_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <lg>
                      <l>El hombre se</l>
@@ -936,10 +1131,34 @@
                <title>Postcard to María Quintela (1)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>M_Quintela_1_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is an image of two flowers,one with the face of a child (pasted),It has handwritten text on both sides.
+                        <lb/> The back side has recipient name and address.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -976,7 +1195,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#M_Quintela_1_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#M_Quintela_1_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener>
                      <salute>
@@ -1030,10 +1249,34 @@
                <title>Postcard to María Quintela (2)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>Quintela_2_1907</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1907. 
+                        <lb/>It is an image of a girl hugging a cat and It has handwritten text on both sides.
+                        <lb/> The back side with recipient name.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1070,7 +1313,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#M_Quintela_2_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#M_Quintela_2_1907_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener>
                      <dateline><placeName>33”</placeName> <date when="1907-10-04">4 – 10 – 1907</date></dateline>
@@ -1122,10 +1365,34 @@
                <title>Postcard to María Quintela (3)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>M_Quintela_3_1907</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1907. 
+                        <lb/>It is an image of a bride and a groom looking at each other.It has handwritten and printed text.
+                        <lb/>The back side has recipient and address information. 
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1162,7 +1429,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#M_Quintela_3_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#M_Quintela_3_1907_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><dateline><placeName>“33</placeName> <date when="1907-11-13">11 – 13 de 1907</date></dateline></opener>
                   <lb/><p>Deseo que <choice><sic>tu</sic><corr>tú</corr></choice> como la figura
@@ -1214,10 +1481,34 @@
                <title>Postcard to María Quintela (4)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>Quintela_4_1909</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1909. 
+                        <lb/>It is an image of a couple leaning on a fence and It has handwritten text on both sides.
+                        <lb/>The back side has recipient and address information. 
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.7</height>
+                                 <width>8.8</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1322,10 +1613,34 @@
                <title>Postcard to María Saint Hilaire</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>SaintHilaire_1904</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1904. 
+                        <lb/>It is an image of a man offering flowers to a woman and It has handwritten text on both sides.
+                        <lb/>The front sidehas part of a stamp and th back side has recipient and address information, part of a stamp.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.8</height>
+                                 <width>8.7</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1408,10 +1723,34 @@
                <title>Postcard to Manuela J. Vinent</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>M_Vinent_1906</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1906. 
+                        <lb/>It is an image of a  picture of two children holding a flower basket and It has handwritten text and printed text.
+                         <lb/>The back side has message, recipient and address information. 
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.9</height>
+                                 <width>8.9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1448,7 +1787,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#M_Vinent_1906_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#M_Vinent_1906_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><date when="1906-02-16">2-16-1906</date></opener>
                   <lb/><p>En lo más re-
@@ -1522,10 +1861,34 @@
                <title>Postcard to Petrona C. de Quincoces (1)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>P_deQuincoces_1_1904</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1904. 
+                        <lb/>It is an image of a woman with flowers in her hair and a bowl of fruit and It has handwritten text on both sides.
+                        <lb/> The front side with one stamp and the back side has reciepent and address.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.7</height>
+                                 <width>8.5</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1562,7 +1925,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_deQuincoces_1_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_deQuincoces_1_1904_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><salute><choice><sic>Queridisima</sic><corr>Queridísima</corr></choice> 
                   <lb/>hij<choice><sic>a</sic><corr>a:</corr></choice></salute></opener>
@@ -1617,10 +1980,34 @@
                <title>Postcard to Petrona C. de Quincoces (2)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>P_deQuincoces_2_1904</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1904.
+                        <lb/>It is an image of flowers and It has handwritten text on both sides.
+                        <lb/>The back side has message, recipient, address information and two stamps. 
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>13.8</height>
+                                 <width>8.9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1657,7 +2044,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_deQuincoces_2_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_deQuincoces_2_1904_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>La virtud y la modestia realza la belleza de la
                   <lb/>mujer.</p>
@@ -1695,10 +2082,34 @@
                <title>Postcard to Petrona C. de Quincoces (3)</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>P_deQuincoces_3_1908</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1908. 
+                        <lb/>It is an image of flowers in the foreground and sailboats in the sea in the background and It has handwritten text on both sides.
+                        <lb/>The back side has message, recipient and address information, and two stamps. 
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1795,10 +2206,34 @@
                <title>Postcard to Paula Grand</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>P_Grand_1907</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1907. 
+                        <lb/>It is an image of a dove carrying a letter (pasted) and blue flowers,It has handwritten text and printed text.
+                        <lb/>The back side has recipient and address information, and one stamp.
+                        <lb/>The postcard is part of a collection ownd by Alicia Pi.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1835,7 +2270,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#P_Grand_1907_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#P_Grand_1907_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <opener><date when="1907-01-01">Enero 1
                   <lb/>De 1907</date></opener>
@@ -1879,10 +2314,34 @@
                <title>Postcard to Vicente Magallanes</title>
             </titleStmt>
             <publicationStmt>
-               <p>Publication Information</p>
+               <authority>Manuela Francisca Mercado Campero</authority>
+               <authority>Haliimah Nabuuma</authority>
             </publicationStmt>
             <sourceDesc>
-               <p>Information about the source</p>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>V_Magallanes_1904</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The original postcard was sent in 1904. 
+                        <lb/>It is an image of Victor Hugo themed postcard: his portrait and house,It has handwritten text on both sides.
+                        <lb/> Front side has message, recipient and address, a part of the stamp and back side one stamp and part of another stamp.
+                        <lb/>he postcard is part of a collection ownd by Alicia Pi</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides
+                              <dimensions unit="cm">
+                                 <height>14</height>
+                                 <width>9</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
             </sourceDesc>
          </fileDesc>
          <profileDesc>
@@ -1919,7 +2378,7 @@
       <text>
          <!-- content of first postcard -->
          <body>
-            <div type="page" facs="#V_Magallanes_1904_s1"> <!-- type and facs / Trascribed text - side 1. When link, in @type, page or postcard/side? -->
+            <div type="page" facs="#V_Magallanes_1904_s1"> <!-- type and facs / Transcribed text - side 1. When link, in @type, page or postcard/side? -->
                <div xml:lang="es">
                   <p>Victor Hugo <choice><sic>fué</sic><corr>fue</corr></choice> un gigante de
                   <lb/>aquellos que él mismo clasif<choice><sic>i</sic><corr>i-</corr></choice>
