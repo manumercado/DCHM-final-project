@@ -8,6 +8,10 @@ body {
   width: 100%;
 	}
 
+main {
+    width: 80%;
+}
+
 h1, h2, h3, nav, footer {
     text-align: center;
 }

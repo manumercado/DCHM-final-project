@@ -17,11 +17,15 @@
                     />
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
-                <link rel="stylesheet"
-                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                    crossorigin="anonymous"/>
-                <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
+                <link 
+                    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+                    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+                    crossorigin="anonymous">
+                    <script 
+                        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+                        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+                    </script>
+                </link>
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <!-- <link rel="stylesheet" href="assets/css/desktop.css"/> -->
             </head>
@@ -36,30 +40,94 @@
                 <nav id="sitenav">
                     <a href="index.html">Home</a> | 
                     <a href="postcards.html">Postcard Collection</a> | 
-                    <a href="about.html">About the Project</a> |
+                    <a href="about.html">About</a> |
                 </nav>
                 <main>
                     <div class="row">
                         <div class="col-sm">
-                            <img class="full-image" src="assets/img/testimage.jpeg" alt="a dog"></img>
-                        </div>
-                        
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> <!-- chose three random postcards (portrait) to display  -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="full-image">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                            />
+                                        </xsl:attribute>
+                                        </img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="full-image">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="full-image">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                         <div class="col-sm">
                             <article>
-                                <h2>Introduction</h2>
+                                <h2>Welcome to the Digital Collection</h2>
                                 <p>
-                                    <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
-                                </p>
+                                    
+                                 </p>
                             </article>
-                        </div>
-                    </div>
+                                </div>
+                    </div>      
                 </main>
                 <footer>
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                    </a>
-                    <br/>This work is licensed under a 
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                    <div class="row" id="footer">
+                        <div class="row" id="copyright-logo">
+                            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+                                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
+                            </a>
+                        </div>
+                        <div class="row" id="copyright-text">
+                            <p>2023 Manuela Mercado &amp; Haliimah Nabuuma</p>
+                        </div>
+                    </div>
                 </footer>
             </body>
         </html>

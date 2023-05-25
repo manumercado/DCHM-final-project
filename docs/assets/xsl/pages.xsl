@@ -14,11 +14,16 @@
                             <!-- add the title from the metadata. This is what will be shown on your browsers tab-->
                             <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                         </title>
-                        <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
-                        <link rel="stylesheet"
-                            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                            crossorigin="anonymous"/>
+                        <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html; changed this to full -->
+                        <link 
+                            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+                            rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+                            crossorigin="anonymous">
+                            <script 
+                                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+                                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+                            </script>
+                        </link>
                         <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                         <link rel="stylesheet" href="assets/css/main.css"/>
                         <!-- <link rel="stylesheet" href="assets/css/desktop.css"/> -->
@@ -32,14 +37,13 @@
                         <nav id="sitenav">
                             <a href="index.html">Home</a> |
                             <a href="postcards.html">Postcard Collection</a> |
-                            <a href="about.html">About the Project</a> |
+                            <a href="about.html">About</a> |
                         </nav>
                         <main>
                             <h2>
                                 <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                             </h2>
                             <div class="container"> <!-- Contains both images and transcriptions side to side -->
-                                
                                 <div id="buttons"> <!-- Display different versions of the texts; affects s1 and s2 -->               
                                     <button class="btn btn-light" onclick="original()">Original text</button>
                                     <button class="btn btn-light" onclick="edited()">Edited text</button>
@@ -82,7 +86,7 @@
                                                 <xsl:attribute name="alt">
                                                     <xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"/>
                                                 </xsl:attribute>
-                                            </img>  
+                                            </img>
                                         </article>
                                     </div>
                                     <div class="col-sm" id="col-s1"> <!-- trans1; for this to work, must make sure that div facs (2) has div 1 (spanish) and div 2 (english) -->
@@ -124,10 +128,23 @@
                                         <article id="s2-english" style="display:none">
                                             <xsl:apply-templates select="tei:text/tei:body/tei:div[2]/tei:div[2]"/>
                                         </article>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </main>
+                        <footer>
+                            <div class="row" id="footer">
+                                <div class="row" id="copyright-logo">
+                                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+                                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
+                                    </a>
+                                </div>
+                                <div class="row" id="copyright-text">
+                                    <p>2023 Manuela Mercado &amp; Haliimah Nabuuma</p>
+                                </div>
+                            </div>
+                        </footer>
                     </body>
                 </html>
             </xsl:result-document>
