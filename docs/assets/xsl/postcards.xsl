@@ -50,6 +50,7 @@
                         <xsl:for-each select="//tei:TEI">
                             <xsl:variable name="postcardurl" select="@xml:id"/>
                             <div class="row">
+                                <div class="col-sm-2"/> <!-- This is to displace images more to the center -->
                                 <!-- first column: load the image based on the IIIF link in the graphic above -->
                                 <div class="col-sm">
                                     <article id="eachPostcard">
@@ -74,7 +75,7 @@
                                 </div>
                                 <div class="col-sm">
                                     <article id="description">
-                                        <p>Description: <xsl:value-of
+                                        <p><xsl:value-of
                                                 select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
                                             /></p>
                                         <p>Date: <xsl:value-of

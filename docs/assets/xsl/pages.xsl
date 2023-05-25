@@ -39,15 +39,16 @@
                             <a href="postcards.html">Postcard Collection</a> |
                             <a href="about.html">About</a> |
                         </nav>
-                        <main>
+                        <main class="container">
                             <h2>
                                 <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                             </h2>
                             <div class="container"> <!-- Contains both images and transcriptions side to side -->
-                                <div id="buttons"> <!-- Display different versions of the texts; affects s1 and s2 -->               
-                                    <button class="btn btn-light" onclick="original()">Original text</button>
-                                    <button class="btn btn-light" onclick="edited()">Edited text</button>
-                                    <button class="btn btn-light" onclick="english()">English</button>
+                                <div id="text-buttons"> <!-- Display different versions of the texts; affects s1 and s2 -->               
+                                    <button class="btn btn-outline-dark" onclick="original()">Original text</button>
+                                    <button class="btn btn-outline-dark" onclick="edited()">Edited text</button>
+                                    <button class="btn btn-outline-dark" onclick="english()">English</button>
+                                    <!-- first three functions are for texts buttons and fourth function for zoom tool -->
                                     <script>
                                         function original() {
                                         document.getElementById("s1-original").style.display = "block"
@@ -70,13 +71,26 @@
                                         document.getElementById("s2-english").style.display = "block"
                                         document.getElementById("s2-original").style.display = "none"
                                         document.getElementById("s2-edited").style.display = "none"}
+                                        
+                                        function zoom(e){
+                                        var zoomer = e.currentTarget;
+                                        e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+                                        e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+                                        x = offsetX/zoomer.offsetWidth*100
+                                        y = offsetY/zoomer.offsetHeight*100
+                                        zoomer.style.backgroundPosition = x + '% ' + y + '%';
+                                        }
                                     </script>
                                 </div>
-                                
                                 <div class="row"> <!-- Contains col. with img s1 and trans1 -->
                                     <div class="col-sm"> <!-- img s1 -->
                                         <article id="img-postcard-s1">
-                                            <img class="full-image">
+                                            <figure class="zoom full-image" onmousemove="zoom(event)">
+                                                <xsl:attribute name="style">
+                                                    background-image:
+                                                    url(<xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"/>)
+                                                </xsl:attribute>
+                                                <img>
                                                 <xsl:attribute name="src">
                                                     <xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"/>
                                                 </xsl:attribute>
@@ -87,9 +101,10 @@
                                                     <xsl:value-of select="tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"/>
                                                 </xsl:attribute>
                                             </img>
+                                            </figure>
                                         </article>
                                     </div>
-                                    <div class="col-sm" id="col-s1"> <!-- trans1; for this to work, must make sure that div facs (2) has div 1 (spanish) and div 2 (english) -->
+                                    <div class="col-sm" id="col-s1"> <!-- trans1; for this to work, must make sure that div facs in body (1) has div 1 (spanish) and div 2 (english) -->
                                         <article id="s1-original">
                                             <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:div[1]"/>                                           
                                         </article>
@@ -101,11 +116,15 @@
                                         </article>
                                     </div>
                                 </div>
-                                
                                 <div class="row"> <!-- Contains col. with img s2 and trans2 -->
                                     <div class="col-sm">
                                         <article id="img-postcard-s2">
-                                            <img class="full-image">
+                                            <figure class="zoom full-image" onmousemove="zoom(event)">
+                                                <xsl:attribute name="style">
+                                                    background-image:
+                                                    url(<xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>)
+                                                </xsl:attribute>
+                                                <img>
                                                 <xsl:attribute name="src">
                                                     <xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
                                                 </xsl:attribute>
@@ -115,7 +134,8 @@
                                                 <xsl:attribute name="alt">
                                                     <xsl:value-of select="tei:facsimile/tei:surface[2]/tei:figure/tei:figDesc"/>
                                                 </xsl:attribute>
-                                            </img>  
+                                                </img>  
+                                            </figure>
                                         </article>
                                     </div>
                                     <div class="col-sm" id="col-s2"> <!-- Trans2; for this to work, must make sure that div facs (2) has div 1 (spanish) and div 2 (english) -->
@@ -128,7 +148,6 @@
                                         <article id="s2-english" style="display:none">
                                             <xsl:apply-templates select="tei:text/tei:body/tei:div[2]/tei:div[2]"/>
                                         </article>
-                                        
                                     </div>
                                 </div>
                             </div>

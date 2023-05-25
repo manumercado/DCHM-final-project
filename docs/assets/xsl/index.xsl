@@ -42,7 +42,7 @@
                     <a href="postcards.html">Postcard Collection</a> | 
                     <a href="about.html">About</a> |
                 </nav>
-                <main>
+                <main class="container">
                     <div class="row">
                         <div class="col-sm">
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> <!-- chose three random postcards (portrait) to display  -->
