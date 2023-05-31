@@ -49,6 +49,8 @@
                                 <p>"Postcards from the Southern Cone" is the final project for 
                                     the course "Digitising Cultural Heritage Material" from the University of Borås. 
                                     Its aim is to digitise a collection of old postcards from Argentina and Uruguay.</p>
+                                <p>Download the project's TEI file <a href="assets/tei/TEI.xml" download="tei.xml">here</a> 
+                                    or visit our <a href="">GitHub</a></p>
                                     
                                 <h2>About the Collection</h2>
                                 <p> 
