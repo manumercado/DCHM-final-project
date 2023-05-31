@@ -76,14 +76,12 @@
                                 <div class="col-sm">
                                     <article id="description">
                                         <p><xsl:value-of
-                                                select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                            /></p>
-                                        <p>Date: <xsl:value-of
-                                                select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date"
-                                            /></p>
-                                        <p>Location: <xsl:value-of
-                                                select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:placeName"
-                                            /></p>
+                                        <p><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></p>
+                                        <p>Date: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date"/></p>
+                                        <p>Sender: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName"/> </p>
+                                        <p>Sender's location: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:placeName"/></p>
+                                        <p>Recipient: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName"/> </p>
+                                        <p>Recipient's location: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'received']/tei:placeName"/> </p>
                                         <a href="{$postcardurl}.html">See postcard</a>
 
                                     </article>
