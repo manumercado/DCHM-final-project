@@ -177,12 +177,9 @@
                         </main>
                         <footer>
                             <div class="row" id="footer">
-                                <div class="row" id="copyright-logo">
+                                <div class="row" id="copyright">
                                     <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                                    </a>
-                                </div>
-                                <div class="row" id="copyright-text">
+                                        <img alt="Creative Commons License" style="margin-bottom:5px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a>
                                     <p>2023 Manuela Mercado &amp; Haliimah Nabuuma</p>
                                 </div>
                             </div>

@@ -63,9 +63,9 @@
                                     <h2>About the Collection</h2>
                                     <p>The digitised postcards are part of a personal collection owned by Alicia Pi. All the postcards have 
                                         been found in second-hand bookshops and street markets in Uruguay, Argentina and Chile. 
-                                        We thank Alicia for kindly letting us use this collection for this project.</p>
+                                        We thank Alicia for kindly letting us use her collection.</p>
                                     <p>These postcards are in public domain. However, if you recognise a relative's postcard and
-                                    wish to have it removed, please contact us o we can take quick action.</p>
+                                    wish to have it removed, please contact us so we can take quick action.</p>
                                 </article>
                             </div>
                             <div class="col-sm">
@@ -81,12 +81,9 @@
                 </main>
                 <footer>
                     <div class="row" id="footer">
-                        <div class="row" id="copyright-logo">
+                        <div class="row" id="copyright">
                             <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                            </a>
-                        </div>
-                        <div class="row" id="copyright-text">
+                                <img alt="Creative Commons License" style="margin-bottom:5px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a>
                             <p>2023 Manuela Mercado &amp; Haliimah Nabuuma</p>
                         </div>
                     </div>
