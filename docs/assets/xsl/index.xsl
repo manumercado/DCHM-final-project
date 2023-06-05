@@ -48,29 +48,48 @@
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> <!-- chose three random postcards (portrait) to display  -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="4000">
-                                        <img class="full-image">
+                                        <img>
                                         <xsl:attribute name="src">
                                             <xsl:value-of
-                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
                                             <xsl:value-of
-                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
                                             <xsl:value-of
-                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
                                             />
                                         </xsl:attribute>
                                         </img>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="4000">
-                                        <img class="full-image">
+                                        <img>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
-                                                    select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                    select="tei:TEI[1]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[1]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[1]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -86,10 +105,10 @@
                                         </img>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="4000">
-                                        <img class="full-image">
+                                        <img>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
-                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
                                                 />
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
@@ -100,6 +119,25 @@
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of
                                                     select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[6]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[6]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[6]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
                                                 />
                                             </xsl:attribute> 
                                         </img>

@@ -150,6 +150,29 @@
                                         </article>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <article>
+                                        <h3 style="text-align: left; padding-left: 0">About this postcard</h3>
+                                        <p>
+                                        Sent date: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date"/><br/>
+                                        Sender: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName"/><br/>
+                                        Sender's location: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'sent']/tei:placeName"/><br/>
+                                        Recipient: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName"/><br/>
+                                        Recipient's location: <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type = 'received']/tei:placeName"/><br/>
+                                        Postcard size (cm.): <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:dimensions/tei:height"/> x 
+                                                       <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:dimensions/tei:width"/></p>
+                                         </article>
+                                    </div>
+                                    <div class="col-sm">
+                                        <article>
+                                            <h3 style="text-align: left; padding-left: 0">Download images</h3>
+                                            <xsl:variable name="postcardurl" select="@xml:id"/>
+                                            <a href="assets/img/Tif_Meta/{$postcardurl}_s1.tif" download="{$postcardurl}_s1.tif">Side 1</a><br/>
+                                            <a href="assets/img/Tif_Meta/{$postcardurl}_s2.tif" download="{$postcardurl}_s2.tif">Side 2</a>
+                                        </article>
+                                    </div>
+                                </div>
                             </div>
                         </main>
                         <footer>

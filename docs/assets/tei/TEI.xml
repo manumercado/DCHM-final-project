@@ -6,16 +6,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Postcards from the Southern Cone: a DCHM project</title>
+            <title>Postcards from the Southern Cone</title>
+            <meeting>Final project for Digitising Cultural Heritage Material</meeting>
             <respStmt>
-               <resp>Digitization, markup and digital publication</resp>
-               <name xml:id="MF">Manuela Francisca Mercado Campero</name>
+               <resp>Digitisation, markup and digital publication</resp>
+               <name xml:id="MF">Manuela Mercado</name>
                <name xml:id="HN">Haliimah Nabuuma</name>
                <orgName>The University of Borås</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority>Manuela Francisca Mercado Campero</authority>
+            <authority>Manuela Mercado</authority>
             <authority>Haliimah Nabuuma</authority>
             <distributor>The University of Borås</distributor>
             <address> 
@@ -24,23 +25,27 @@
                <addrLine>Sweden</addrLine>
             </address>
             <availability>
-               <licence>Licensed with a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attibution</ref> licence. </licence>
+               <licence>Licensed with a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attibution</ref> licence.</licence>
             </availability>
-            <date when="2023-05-17">May 17, 2023</date>
+            <date when="2023-06-07">June 7, 2023</date>
          </publicationStmt>
          <notesStmt>
-            <note>Examination for the Digitizing Cultural Heritage Material course 32LDK, at the University of Borås <date>Examination 2023</date></note>
+            <note><date>2023</date> examination for the Digitizing Cultural Heritage Material course 32LDK, at the University of Borås</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>A collection of twenty postcards from Argentina and Uruguay, between 1900 and 1910.</bibl>
+            <bibl>A collection of 20 postcards from Argentina and Uruguay, between 1900 and 1910.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>The TEI encoding project has been undertaken as an integral component of the digitizing Cultural Heritage Materials course as part of the master’s program in Library and Information Science at the University of Borås.
-               This collection holds 20 postcards from the Southern Cone region, specifically Argentina and Uruguay,dating between 1900-1910.      
-            </p>
-         </projectDesc>
+            <p>This digitisation project has been undertaken as an integral component of the Digitising Cultural Heritage Materials course,
+               from the master’s program in Library and Information Science at the University of Borås.</p>    
+          </projectDesc>
+         <editorialDecl>
+            <p>The text of each postcard was transcribed remaining faithful to the original, keeping the original spelling, punctuation, 
+               word and line breaks, hyphens, etc. The text was later corrected and/or normalised using the elements sic and corr nested 
+               in the element choice.</p>
+         </editorialDecl>
       </encodingDesc>
    </teiHeader>
    <TEI xml:id="C_Abreu_1905"> <!-- postcard n1 -->
