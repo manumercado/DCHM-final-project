@@ -47,38 +47,37 @@
                             <article>
                                 <h2>About the Project</h2>
                                 <p>"Postcards from the Southern Cone" is the final project for 
-                                    the course "Digitising Cultural Heritage Material" from the University of Borås. 
-                                    Its aim is to digitise a collection of old postcards from Argentina and Uruguay.</p>
-                                <p>Download the project's TEI file <a href="assets/tei/TEI.xml" download="tei.xml">here</a> 
-                                    or visit our <a href="https://github.com/manumercado/DCHM-final-project">GitHub</a></p>
-                                    
-                                <h2>About the Collection</h2>
-                                <p> 
-                                   The digitised postcards are part of a 82-item collection owned by Alicia Pi.
-                                   Some of the postcards belonged to old relatives, but most of them 
-                                   have been found in second-hand bookshops and street markets in Uruguay, 
-                                   Argentina and Chile.   
-                                </p>
-                                <p>
-                                    We thank Alicia for kindly letting us use this collection for this project.
-                                </p>
-                            </article>
-                            <article>
-                                <h2>Contact Us</h2>
-                                <p>For questions, comments or requests, please send us an email to:</p>
-                                <ul>
-                                    <li>Manuela Mercado: s2206116@student.hb.se</li>
-                                    <li>Haliimah Nabuuma: s2207272@student.hb.se</li>
-                                </ul>
+                                    the course "Digitising Cultural Heritage Material", which us part of the master's programme 
+                                    in Library and Information Science at the University of Borås. 
+                                    It presents twenty digistised postcards from Uruguay and Argentina, which were sent during 
+                                    the first decade of the 20th century. </p>
+                                <p>As our objective was to both preserve and share this cultural heritage material, we digitised, transcribed 
+                                    and encoded the postcards. For more information about the process, you can download the project's 
+                                    TEI <a href="assets/tei/TEI.xml" download="tei.xml">here</a> or visit our 
+                                    <a href="https://github.com/manumercado/DCHM-final-project">GitHub</a>.</p>
                             </article>
                         </div>
-                      
-                        
-                    </div>
-                    
-                    
-
-
+                            
+                            <div class="col-sm">
+                                <article>
+                                    <h2>About the Collection</h2>
+                                    <p>The digitised postcards are part of a personal collection owned by Alicia Pi. All the postcards have 
+                                        been found in second-hand bookshops and street markets in Uruguay, Argentina and Chile. 
+                                        We thank Alicia for kindly letting us use this collection for this project.</p>
+                                    <p>These postcards are in public domain. However, if you recognise a relative's postcard and
+                                    wish to have it removed, please contact us o we can take quick action.</p>
+                                </article>
+                            </div>
+                            <div class="col-sm">
+                                <article>
+                                    <h2>Contact Us</h2>
+                                    <p>For questions, comments or requests, please send us an email to:</p>
+                                    <ul>
+                                    <li>Manuela Mercado: s2206116@student.hb.se</li>
+                                    <li>Haliimah Nabuuma: s2207272@student.hb.se</li>
+                                    </ul>
+                               </article></div>
+                        </div>
                 </main>
                 <footer>
                     <div class="row" id="footer">

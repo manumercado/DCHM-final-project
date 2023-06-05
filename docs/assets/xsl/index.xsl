@@ -49,25 +49,6 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="4000">
                                         <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of
-                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of
-                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of
-                                                select="tei:TEI[4]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
-                                            />
-                                        </xsl:attribute>
-                                        </img>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="4000">
-                                        <img>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
                                                     select="tei:TEI[1]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
@@ -84,8 +65,23 @@
                                                 />
                                             </xsl:attribute> 
                                         </img>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of
+                                                select="tei:TEI[2]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                            />
+                                        </xsl:attribute>
+                                        </img>
                                         <img>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of
@@ -101,26 +97,7 @@
                                                 <xsl:value-of
                                                     select="tei:TEI[3]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
                                                 />
-                                            </xsl:attribute> 
-                                        </img>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="4000">
-                                        <img>
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of
-                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
-                                                />
                                             </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of
-                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
-                                                />
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of
-                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
-                                                />
-                                            </xsl:attribute> 
                                         </img>
                                     </div>
                                     <div class="carousel-item" data-bs-interval="4000">
@@ -141,6 +118,93 @@
                                                 />
                                             </xsl:attribute> 
                                         </img>
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[11]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[11]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[11]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute>
+                                        </img>
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[12]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[12]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[12]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[13]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[13]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[13]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute>
+                                        </img>
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[14]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[14]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[14]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
+                                        <img>
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:graphic[2]/@url"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:label"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of
+                                                    select="tei:TEI[19]/tei:facsimile/tei:surface[1]/tei:figure/tei:figDesc"
+                                                />
+                                            </xsl:attribute> 
+                                        </img>
                                     </div>
                                 </div>
                             </div>
@@ -149,20 +213,22 @@
                             <article>
                                 <h2>Welcome to the Digital Collection</h2>
                                 <p>
-                                    
-                                 </p>
+                                </p>
                             </article>
-                                </div>
-                    </div>      
+                        </div>
+                    </div>  
+                    <div class="row" style="text-align:center">
+                        <p>
+                        A DCHM project.<br/>
+                        Digitisation and trascriptions by:<br/>
+                        Manuela Mercado and Haliimah Nabuuma</p>
+                    </div>
                 </main>
                 <footer>
                     <div class="row" id="footer">
-                        <div class="row" id="copyright-logo">
+                        <div class="row" id="copyright">
                             <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                            </a>
-                        </div>
-                        <div class="row" id="copyright-text">
+                                <img alt="Creative Commons License" style="margin-bottom:5px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/></a>
                             <p>2023 Manuela Mercado &amp; Haliimah Nabuuma</p>
                         </div>
                     </div>
