@@ -46,8 +46,8 @@
                         <div class="col-sm">
                             <article>
                                 <h2>About the Project</h2>
-                                <p>"Postcards from the Southern Cone" is the final project for 
-                                    the course "Digitising Cultural Heritage Material", which us part of the master's programme 
+                                <p>"Postcards from the Southern Cone" is the final project of 
+                                    the course "Digitising Cultural Heritage Material", which is part of the Master's Programme 
                                     in Library and Information Science at the University of Borås. 
                                     It presents twenty digistised postcards from Uruguay and Argentina, which were sent during 
                                     the first decade of the 20th century. </p>
@@ -63,8 +63,8 @@
                                     <h2>About the Collection</h2>
                                     <p>The digitised postcards are part of a personal collection owned by Alicia Pi. All the postcards have 
                                         been found in second-hand bookshops and street markets in Uruguay, Argentina and Chile. 
-                                        We thank Alicia for kindly letting us use her collection.</p>
-                                    <p>These postcards are in public domain. However, if you recognise a relative's postcard and
+                                        We thank Alicia for kindly letting us use the material.</p>
+                                    <p>These postcards are in the public domain. However, if you recognise a relative's postcard and
                                     wish to have it removed, please contact us so we can take quick action.</p>
                                 </article>
                             </div>

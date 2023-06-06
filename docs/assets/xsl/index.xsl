@@ -215,12 +215,12 @@
                                 <p>If you are looking for pieces of the past, you've come to the right place! 
                                     Here you will find postcards from the first decade of 
                                     the 20th century sent by individuals in Uruguay and Argentina. These 
-                                    recover forgotten voices and allow us to observe how common people 
-                                    interacted and communicated with family, friends and acquaintances. These postcards 
-                                    also reveal something about the aesthetics and sensibilities of the period.</p>
-                                <p>In order to give you a wholesome experience, you will find the transcription 
-                                    and English translation of each postcard, as well as the option to download the 
-                                    images as TIF files. So feel free to explore the collection--we hope you enjoy it.</p>
+                                    recover forgotten voices and allow us to observe how ordinary people 
+                                    interacted and communicated with family, friends and acquaintances. They
+                                    also tell us about the aesthetics and sensibilities of the period.</p>
+                                <p>In order to give you a better experience, each postcard is accompanied by its transcription 
+                                    and English translation. There is also the option to download the 
+                                    images as TIF files. So feel free to explore the collection&#8212;we hope you enjoy it.</p>
                             </article>
                         </div>
                     </div>  
